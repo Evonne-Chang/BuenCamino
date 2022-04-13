@@ -1,0 +1,149 @@
+@import url("reset.css");
+
+
+body{
+    color: black;
+    font-family: 'PMingLiU-ExtB','Times New Roman','Arail';
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+
+header{
+    background-image: url(../img/index_main_videobn.png);
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size:cover;
+    height: 800px;
+}
+
+.wrapper{
+    border: 1px black solid;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.main-nav img{
+    width: 120px;
+}
+
+.main-nav{
+    border: 1px yellow solid;
+    font-family: Arial;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+
+
+.main-nav ul{
+    display: flex;
+    padding-left: 250px ;
+}
+
+.main-nav li{
+    font-size: 15px;
+    padding-left: 66px;
+    box-sizing: border-box;
+    flex-grow: 7;
+}
+
+.main-nav a{
+    line-height: 40px;
+}
+
+.right-nav{
+    width: 40px;
+    float: right;
+    padding-top: 217px;
+}
+
+.right-nav img{
+    width: 30px;
+    border: 1px green solid;
+}
+
+.header-title{
+    margin-top: 150px;
+    border: 1px lightblue solid;
+}
+
+.header-title h1{
+    color: #FFDC59;
+    font-size: 48px;
+    letter-spacing: 24px;
+    text-align: center;
+}
+
+.header-title h2{
+    color: white;
+    font-family: 'Times New Roman';
+    font-size: 86px;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+.header-title h3{
+    color: white;
+    font-family: 'Times New Roman';
+    font-size: 36px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.header-title2{
+    background-color: #FFDC59;
+    width: 1000px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 256px ;
+}
+.header-title2 h4{
+    font-size: 24px;
+    letter-spacing: 4px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.header-title2 p{
+    font-family: Arial;
+    font-size: 14px;
+    letter-spacing: 4px;
+    text-align: center;
+    padding-top: 15px;
+    line-height: 24px;
+}
+
+.scroll p{
+    color: white;
+    letter-spacing: 5px;
+}
+
+.scroll span{
+    /* content: ""; */
+    display: inline-block;
+    width: 60px;
+    height: 2px;
+    background-color: white;
+}
+
+.scroll{
+    border: 1px green solid;
+    width: 160px;
+    height: 12px;
+    position: absolute;
+    transform:rotate(90deg);
+    bottom: 227px;
+    left: -55px;
+}
+
+.container{
+    background-image: url(../img/backgroundbn.png) left top repeat ;
+}
+
