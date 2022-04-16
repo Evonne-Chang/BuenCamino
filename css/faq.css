@@ -25,8 +25,8 @@ header{
     height: 550px;
 }
 
-
 /* header 最外層 */
+
 .wrapper{
     width: 1200px;
     margin: 0 auto;
@@ -98,6 +98,21 @@ header h1{
 }
 /* header 最外層  end*/
 
+
+/* container 最外層 */
+.container{
+    background-image: url(../img/backgroundbn.png) ;
+    background-repeat: left top repeat ;
+    /* overflow: hidden; */
+}
+
+/* section wrapper 最外層 */
+.section_wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
 /* breadcrumbs 麵包屑 */
 .breadcrumb{
     display: flex;
@@ -132,13 +147,129 @@ header h1{
 
 .current{
     background-color: #C0E3EE;
-    width: 50px;
+    width: 40px;
     height: 25px;
     border-radius: 10px;
     color: #213375;
-    padding-top: 6px;
-    padding-left: 6px ;
+    padding-top: 8px;
+    padding-left: 10px ;
 }
+/* breadcrumbs 麵包屑 end*/
+
+.section_wrapper h2{
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 4px;
+    padding: 50px 0;
+}
+
+/* faq */
+.faq_section *, .faq_section *:after, .faq_section *:before {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.faq_section {
+    padding-bottom: 70px ;
+}
+.faq_section .cp_actab {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	margin-bottom: 20px;
+    font-size: 18px;
+	color: rgb(80, 80, 80);
+    letter-spacing: 5px;
+    background-color: #C0E3EE;
+}
+
+
+.faq_section .cp_actab input {
+	position: absolute;
+	opacity: 0;
+}
+/* question */
+.faq_section .cp_actab label {
+	line-height: 2.2 ;
+	position: relative;
+	display: block;
+	margin: 0 0 0 0;
+	padding: 1em 2em 1em 1em;
+	cursor: pointer;
+}
+.faq_section .cp_actab label:hover {
+    background-color: #213375;
+	color: #FFDC59;
+}
+/* answer */
+.faq_section .cp_actab .cp_actab-content {
+	overflow: hidden;
+	max-height: 0;
+	-webkit-transition: max-height 0.5s ease;
+	        transition: max-height 0.5s ease;
+	color: rgb(255, 255, 255);
+    font-size: 17px;
+	background: #CEB8A3;
+}
+.faq_section .cp_actab .cp_actab-content p {
+	margin: 1em;
+}
+/* answer after hover */
+.faq_section .cp_actab input:checked ~ label {
+	color: black;
+}
+.faq_section .cp_actab input:checked ~ .cp_actab-content {
+	max-height: 300em;
+}
+/* icon after hover */
+.faq_section .cp_actab label::after {
+	line-height: 1.6;
+	position: absolute;
+	top: 50%;
+	right: 0;
+	display: block;
+	width: 3em;
+	margin-top: -12.5px;
+	-webkit-transition: all 0.5s ease;
+	        transition: all 0.5s ease;
+	text-align: center;
+}
+.faq_section .cp_actab input[type=checkbox] + label::after {
+	content: '+';
+}
+.faq_section .cp_actab input[type=checkbox]:checked + label::after {
+	-webkit-transform: rotateX(180deg);
+	transform: rotateX(180deg);
+}
+/* ---------------- faq end -----------*/
+
+
+/* ------ e-mail ---------- */
+.email_area{
+    border: 1px solid black;
+    width: 900px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 30px;
+    margin: 0 auto;
+    box-shadow: 6px 8px 7px gainsboro;
+    text-align: center;
+} 
+
+.email_area h3{
+    font-size: 24px;
+    padding-top: 70px ;
+}
+
+.email_area h4{
+    font-size: 24px;
+    padding-top: 15px ;
+}
+
+.email_area img{
+   padding: 20px 0;
+}
+/* ------ e-mail end --------- */
+
 
 
 /* Totopbuttom */

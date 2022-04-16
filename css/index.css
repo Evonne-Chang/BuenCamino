@@ -3,11 +3,13 @@
 
 body{
     color: black;
-    font-family: 'PMingLiU-ExtB','Times New Roman','Arail';
+    font-family: 'Times New Roman','Arail','Noto Sans TC', sans-serif;
+    /* 'PMingLiU' */
 }
 
 a{
     text-decoration: none;
+    text-align: center;
     color: white;
     display: block;
 }
@@ -18,46 +20,47 @@ header{
     background-repeat: no-repeat;
     background-position:center center;
     background-size:cover;
-    height: 800px;
 }
 
+/* header 最外層 */
 .wrapper{
-    border: 1px black solid;
     width: 1200px;
+    height: 800px;
     margin: 0 auto;
     position: relative;
 }
 
+/* header main nav */
 .main-nav img{
     width: 120px;
 }
 
 .main-nav{
-    border: 1px yellow solid;
     font-family: Arial;
     box-sizing: border-box;
     display: flex;
     align-items: center;
-    padding-top: 50px;
+    padding-top: 50px
 }
-
 
 .main-nav ul{
     display: flex;
-    padding-left: 250px ;
+    width: 800px;
+    margin-left: 308px ;
 }
 
 .main-nav li{
     font-size: 15px;
-    padding-left: 66px;
-    box-sizing: border-box;
-    flex-grow: 7;
+    flex-grow: 1;
+    flex-basis: 0;
 }
 
 .main-nav a{
     line-height: 40px;
 }
+/* header main nav end */
 
+/* header right nav */
 .right-nav{
     width: 40px;
     float: right;
@@ -66,12 +69,11 @@ header{
 
 .right-nav img{
     width: 30px;
-    border: 1px green solid;
 }
+/* header right nav end */
 
 .header-title{
     margin-top: 150px;
-    border: 1px lightblue solid;
 }
 
 .header-title h1{
@@ -101,9 +103,11 @@ header{
     background-color: #FFDC59;
     width: 1000px;
     height: 200px;
-    margin: 0 auto;
-    margin-top: 256px ;
+    position: absolute;
+    top: 750px;
+    left: 100px;
 }
+
 .header-title2 h4{
     font-size: 24px;
     letter-spacing: 4px;
@@ -114,15 +118,16 @@ header{
 .header-title2 p{
     font-family: Arial;
     font-size: 14px;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     text-align: center;
-    padding-top: 15px;
-    line-height: 24px;
+    padding-top: 18px;
 }
+
 
 .scroll p{
     color: white;
     letter-spacing: 5px;
+    /* writing-mode: vertical-rl; 文字變直*/
 }
 
 .scroll span{
@@ -134,16 +139,304 @@ header{
 }
 
 .scroll{
-    border: 1px green solid;
     width: 160px;
     height: 12px;
     position: absolute;
     transform:rotate(90deg);
-    bottom: 227px;
+    bottom: 65px;
     left: -55px;
 }
+/* header end */
+
+
+/* container 最外層*/
 
 .container{
-    background-image: url(../img/backgroundbn.png) left top repeat ;
+    background-image: url(../img/backgroundbn.png) ;
+    background-repeat: left top repeat ;
 }
 
+/* .container::after{
+    content: "";
+    display: block;
+    clear: both;
+} */
+
+
+
+/* introitemlist */
+.introlist {
+    max-width: 1000px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+/* introitem li*3 */
+.introlist .introitem1{
+    display: flex;
+    padding-top: 220px;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.introlist .introitem2{
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.introlist .introitem3{
+    display: flex;
+    margin-top: 100px;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.introlist > li{
+    position: relative;
+}
+
+
+/* intro-index-插圖 */
+.introlist .index-pic01{
+    position: absolute;
+    top: 150px;
+    left: 203px;
+}
+
+.introlist .index-pic02{
+    position: absolute;
+    top: 225px;
+    left: -106px;
+}
+
+.introlist .index-pic03{
+    position: absolute;
+    top: -92px;
+    left: 500px;
+}
+
+.introlist .index-pic04{
+    position: absolute;
+    top: 500px;
+    left: 333px;
+}
+
+.introlist .index-pic05{
+    position: absolute;
+    top: -148px;
+    left: 685px;
+}
+
+.introlist .index-pic06{
+    position: absolute;
+    top: 497px;
+    left: 205px;
+}
+
+.introlist .index-pic07{
+    position: absolute;
+    top: 545px;
+    left: 190px;
+}
+
+
+/* introimg 拍立得 */
+.introimg{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 10px 10px 5px gainsboro;
+}
+
+.introimg img{
+    width: 480px;
+    height: 400px;
+    display: block;
+    margin-left: 12px;
+    margin-top: 12px;
+}
+
+
+.introimg p{
+    text-align: center;
+    font-family: Arial;
+    margin-top: 14px;
+    line-height: 1.6;
+}
+
+
+/* intro-text */
+.intro-text{
+    display: inline-block;
+    margin-right: auto;
+}
+
+.introitem2 .intro-text{
+    margin-left: 198px;
+}
+
+.intro-text-bg{
+    background-image: url(../img/notebook.png);
+    width: 300px;
+    height: 200px;
+}
+
+.intro-text-bg h5{
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-align: center;
+    padding-top: 40px ;
+}
+
+.intro-text p{
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.intro-bottom{
+    background-image: url(/img/indexbn04.jpg);
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size:cover;
+    height: 700px;
+    margin-top: 200px;
+}
+
+.intro-bottom-box{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.intro-bottom h6{
+    padding-top: 120px;
+    color: #213375;
+    font-family: 'Times New Roman';
+    font-size: 48px;
+    letter-spacing: 18px ;
+    text-align: center;
+}
+
+.intro-bottom p{
+    color: white;
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: 218px;
+}
+
+.intro-bottom img{
+    margin-left: 160px;
+    display: block;
+}
+
+/* container 最外層 end*/
+
+
+/* Totopbuttom */
+.totop-arrow {
+	width: 2.5rem;
+	height: 2.5rem;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	border-radius: 20%;
+	/* opacity: 0.9; */
+	background: #FFDC59;
+	cursor: pointer;
+	position:fixed;
+	right: 1rem;
+	bottom: 1rem;
+	display: none;
+}
+.totop-arrow::before, .totop-arrow::after {
+	width: 18px;
+	height: 5px;
+	border-radius: 3px;
+	background: #213375;
+	position: absolute;
+	content: "";
+}
+.totop-arrow::before {
+	transform: rotate(-45deg) translate(0, -50%);
+	left: 0.5rem;
+}
+.totop-arrow::after {
+	transform: rotate(45deg) translate(0, -50%);
+	right: 0.5rem;
+}
+.totop-arrow:focus {outline: none;}
+
+
+/* footer start */
+footer{
+    height: 550px;
+    background-color:#213375 ;
+    text-align: center;
+}
+
+footer h1{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 20px;
+    line-height: 1.6;
+    padding-top: 48px;
+}
+
+footer h2{
+    color: #FFDC59;
+    font-size: 30px;
+    font-family: 'Times New Roman';
+    letter-spacing: 6px;
+    margin-bottom: 20px;
+}
+
+.footer-logo{
+    width: 170px;
+}
+
+footer ul{
+    display: flex;
+    margin: 0 auto;
+    /* justify-content: space-between; */
+}
+
+.footer-nav{
+    width: 900px;
+}
+
+.footer-nav li{
+    font-size: 15px;
+    font-family: Arial;
+    flex-grow: 1;
+    flex-basis: 0;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.footer-nav a:hover{
+    color: #FFDC59;
+}
+
+
+.footer-icon{
+    width: 280px;
+    background-blend-mode: darken;
+    margin-bottom: 30px;
+}
+
+.footer-icon img{
+    width: 40px
+}
+
+.footer-icon li{
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+footer p{
+    color: white;
+    font-size: 12px;
+    line-height: 1.8;
+}
+
+/* footer end */

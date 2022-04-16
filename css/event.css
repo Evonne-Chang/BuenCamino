@@ -30,6 +30,7 @@ header{
 .wrapper{
     width: 1200px;
     margin: 0 auto;
+    border: #213375 2px solid;
 }
 
 /* header main nav */
