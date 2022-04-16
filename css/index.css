@@ -243,6 +243,7 @@ header{
     top: 545px;
     left: 190px;
 }
+/* intro-index-插圖 end */
 
 
 /* introimg 拍立得 */
@@ -300,7 +301,7 @@ header{
 }
 
 .intro-bottom{
-    background-image: url(/img/indexbn04.jpg);
+    background-image: url(../img/indexbn04.jpg);
     background-repeat: no-repeat;
     background-position:center center;
     background-size:cover;
