@@ -125,6 +125,7 @@ h2{
 .breadcrumb{
     display: flex;
     padding-top: 32px;
+    margin-bottom: 20px;
 }
 .breadcrumb a{
     color: #213375;
@@ -231,6 +232,7 @@ h2{
 
 /* routes list 朝聖之路介紹 */
 
+/* routes area one 第一區 */
 .routes_title{
     display: flex;
     width: 1200px;
@@ -247,7 +249,164 @@ h4{
     padding-top: 5px;
 }
 
+.routes_container{
+    width: 1200px;
+    margin: 0 auto;
+}
 
+.routes_cards{
+    position: relative;
+    width: 580px;
+    float: left;
+    margin: 60px 10px 60px 10px;
+
+}
+
+.routes_cards img{
+    display: block;
+    width: 100%;
+
+}
+
+.routes_info{
+    opacity: 0;
+    position: absolute;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,.3);
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 60px;
+    -webkit-transition:.5s ease-out;
+}
+
+.routes_info h5{
+    color: white;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.routes_info p{
+    color: #ffffff;
+    font-size: 22px;
+    letter-spacing: 3px;
+    padding-left: 40px;
+}
+
+.routes_info:hover{
+    margin-top: 0;
+    opacity: 1;
+}
+/* routes area one 第一區 end */
+
+/* routes area one 第二區 */
+
+.routes_container2{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.routes_cards2{
+    position: relative;
+    width: 380px;
+    float: left;
+    margin: 10px 10px 60px 10px;
+}
+
+.routes_cards2 img{
+    display: block;
+    width: 100%;
+}
+
+.routes_info2{
+    opacity: 0;
+    position: absolute;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,.3);
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 60px;
+    -webkit-transition:.5s ease-out;
+}
+
+.routes_info2 h5{
+    color: white;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.routes_info2 p{
+    color: #ffffff;
+    font-size: 22px;
+    letter-spacing: 3px;
+    padding-left: 40px;
+}
+
+.routes_info2:hover{
+    margin-top: 0;
+    opacity: 1;
+}
+/* routes area one 第二區 end */
+
+/* routes area one 第三區 */
+.routes_container3{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.routes_cards3{
+    position: relative;
+    width: 580px;
+    float: left;
+    margin: 10px 10px 70px 10px;
+}
+
+.routes_cards3 img{
+    display: block;
+    width: 100%;
+
+}
+
+.routes_info3{
+    opacity: 0;
+    position: absolute;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,.3);
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 60px;
+    -webkit-transition:.5s ease-out;
+}
+
+.routes_info3 h5{
+    color: white;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.routes_info3 p{
+    color: #ffffff;
+    font-size: 22px;
+    letter-spacing: 3px;
+    padding-left: 60px;
+}
+
+.routes_info3:hover{
+    margin-top: 0;
+    opacity: 1;
+}
+/* routes area one 第三區 end */
 
 /* routes list 朝聖之路介紹 end */
 
