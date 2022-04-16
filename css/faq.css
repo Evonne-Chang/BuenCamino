@@ -61,6 +61,10 @@ header{
 .main-nav a{
     line-height: 40px;
 }
+
+.main-nav a:hover{
+    color: #FFDC59;
+}
 /* header main nav end */
 
 /* header right nav */

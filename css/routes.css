@@ -19,10 +19,11 @@ P{
 }
 
 header{
-    background-color: #213375;
+    background-image: url(../img/routes_mainbn.jpg);
+    background-repeat: no-repeat;
     background-position:center center;
     background-size:cover;
-    height: 550px;
+    height: 850px;
 }
 
 
@@ -61,6 +62,10 @@ header{
 .main-nav a{
     line-height: 40px;
 }
+
+.main-nav a:hover{
+    color: #FFDC59;
+}
 /* header main nav end */
 
 /* header right nav */
@@ -74,29 +79,47 @@ header{
     width: 30px;
 }
 
-header p{
-    color: #FFDC59;
-    font-size: 90px;
-    margin-left: 110px;
-}
-
-header h1{
-    color: white;
-    font-size: 48px;
-    text-align: center;
-    letter-spacing: 5px;
-}
-
-.faq_pic01{
-    width: 400px;
+.main_title{
+    padding-top: 200px;
     margin: 0 auto;
+    width: 460px;
+    border-bottom: #FFDC59 10px solid;
+    
 }
 
-.faq_pic01 img{
-    padding-top: 50px;
-    float: right;
+.main_title h1{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    letter-spacing: 15px;
+    margin-bottom: 10px;
+}
+
+h2{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 40px;
+    letter-spacing: 8px;
 }
 /* header 最外層  end*/
+
+
+/* container 最外層 */
+.container{
+    background-image: url(../img/backgroundbn.png) ;
+    background-repeat: left top repeat ;
+    overflow: hidden;
+}
+
+.container img{
+    width: 100%;
+}
+
+.section_wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
 
 /* breadcrumbs 麵包屑 */
 .breadcrumb{
@@ -139,7 +162,99 @@ header h1{
     padding-top: 6px;
     padding-left: 6px ;
 }
+/* breadcrumbs 麵包屑 end */
 
+
+/* ------section----------  */
+/* ----------routes map---------  */
+.map_bg{
+    background-color: #213375;
+    width: 1200px;
+    height: 820px;
+}
+
+.map_bn{
+    width: 760px;
+    height: 770px;
+    float: right;
+    padding: 110px 120px 50px 0;
+}
+
+.map_bn img{
+    width: 100%;
+}
+
+.map_left_nav{
+    width: 320px;
+    padding-top: 320px;
+    position: relative;
+}
+
+.third_title{
+    color: white;
+    font-size: 36px;
+    padding: 0 0 20px 150px;    
+}
+
+.routes_buttom{
+    width: 200px;
+    height: 283px;
+    background-color: #FFDC59;
+    margin-left: 120px;
+}
+.routes_buttom a{
+    display: block;
+    color: #213375;
+    font-size: 18px;
+    margin-bottom: 8px;
+    padding-top: 14px;
+}
+
+.routes_buttom a:hover{
+    color: white;
+}
+.routes_color_list{
+    width: 25px;
+    height: 283px;
+    background-color: #FFDC59;
+    position: absolute;
+    left: 100px;
+}
+
+.routes_color{
+    width: 18px;
+    padding-top: 13px;
+    padding-left: 16px;
+    margin-bottom: 7px;
+}
+/* ----------routes map end---------  */
+
+/* routes list 朝聖之路介紹 */
+
+.routes_title{
+    display: flex;
+    width: 1200px;
+}
+
+.routes_title .pic01{
+    width:50px;
+    padding-left: 420px;
+}
+
+h4{
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+
+
+/* routes list 朝聖之路介紹 end */
+
+
+
+
+/* -------section end--------  */
 
 /* Totopbuttom */
 .totop-arrow {
