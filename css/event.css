@@ -33,6 +33,7 @@ header{
     border: #213375 2px solid;
 }
 
+
 /* header main nav */
 .main-nav img{
     width: 120px;
@@ -43,7 +44,7 @@ header{
     box-sizing: border-box;
     display: flex;
     align-items: center;
-    padding-top: 50px
+    padding-top: 50px;
 }
 
 .main-nav ul{
@@ -78,7 +79,7 @@ header{
 header p{
     color: #FFDC59;
     font-size: 90px;
-    margin-left: 110px;
+    margin-left: 280px;
 }
 
 header h1{
@@ -88,16 +89,30 @@ header h1{
     letter-spacing: 5px;
 }
 
-.faq_pic01{
-    width: 400px;
+.events_pic01{
+    width: 600px;
     margin: 0 auto;
 }
 
-.faq_pic01 img{
-    padding-top: 50px;
+.events_pic01 img{
+    padding-top: 40px;
     float: right;
 }
 /* header 最外層  end*/
+
+
+/* container 最外層 */
+.container{
+    background-image: url(../img/backgroundbn.png) ;
+    background-repeat: left top repeat ;
+    position: relative;
+    z-index: -1;
+}
+/* section wrapper 最外層 */
+.section_wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
 
 /* breadcrumbs 麵包屑 */
 .breadcrumb{
@@ -133,14 +148,260 @@ header h1{
 
 .current{
     background-color: #C0E3EE;
-    width: 50px;
+    width: 45px;
     height: 25px;
     border-radius: 10px;
     color: #213375;
-    padding-top: 6px;
-    padding-left: 6px ;
+    padding-top: 7px;
+    padding-left: 7px;
+}
+/* breadcrumbs 麵包屑 end */
+
+
+
+/* -----------section events--------- */
+.events_title {
+    margin: 0 auto;
+    background-color: #C0E3EE;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 60px;
 }
 
+.events_title h2{
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.yellow_area{
+    position: relative;
+}
+
+.yellow_area_top{
+    width: 100%;
+    height: 320px;
+    background-color: #FFDC59;
+    position: absolute;
+    z-index: -1;
+    bottom: 112px;
+}
+
+.yellow_area_bottom{
+    width: 100%;
+    width: 1200px;
+    height: 320px;
+    background-color: #FFDC59;
+    position: absolute;
+    z-index: -1;
+    bottom: 780px;
+}
+
+/* -------section event-pic---------- */
+.events_list{
+    display: flex;
+    justify-content: center;
+    padding: 85px 20px 0px 0px;
+}
+
+.events_img{
+    margin-left: 20px;
+    border: 10px solid white;
+    width: 480px;
+    height: 480px;
+    box-shadow: 8px 10px 5px gainsboro;
+    display: block;
+    margin-bottom: 48px;
+}
+
+
+/* -------section event-text---------- */
+.events_text_list{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.events_text01{
+    border: 2px solid black;
+    box-sizing: border-box;
+    width: 480px;
+    height: 175px;
+    border-radius: 12px;
+    padding: 25px 25px 25px 36px;
+    margin-right: 22px;
+}
+
+.events_bigtitle h3{
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.events_text01 p{
+    font-size: 22px;
+    letter-spacing: 3px;
+}
+
+.events_text02 p{
+    font-size: 22px;
+    letter-spacing: 3px;
+}
+
+.events_text02{
+    border: 2px solid black;
+    box-sizing: border-box;
+    width: 480px;
+    height: 175px;
+    border-radius: 12px;
+    padding: 25px 25px 25px 36px;
+    margin-left: 22px;
+}
+
+
+/* -------section buttom-------- */
+.buttom_gp{
+    display: flex;
+    margin: 0 auto;
+    width: 1000px;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.buttom{
+    width: 150px;
+    height: 50px;
+    background-color: #213375;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.buttom a{
+    font-size: 20px;
+    line-height: 50px;
+}
+
+/* ------section news--------- */
+.news_title {
+    margin: 0 auto;
+    background-color: #C0E3EE;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+
+.news_title h2{
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.news_list{
+    display: flex;
+    justify-content: center;
+    padding: 85px 20px 50px 0px;
+}
+
+
+
+.news_img{
+    margin-left: 20px;
+    border: 10px solid white;
+    width: 480px;
+    height: 480px;
+    box-shadow: 8px 10px 5px gainsboro;
+}
+
+/* -------section news-text---------- */
+
+.news_text_list{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+
+.news_text01{
+    border: 2px solid black;
+    box-sizing: border-box;
+    width: 480px;
+    height: 175px;
+    border-radius: 12px;
+    padding: 25px 25px 25px 36px;
+    margin-right: 22px;
+    position: relative;
+    z-index: 2;
+}
+
+.news_bigtitle h3{
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.news_text01 p{
+    font-size: 22px;
+    letter-spacing: 3px;
+}
+
+.news_text02 p{
+    font-size: 22px;
+    letter-spacing: 3px;
+}
+
+.news_text02{
+    border: 2px solid black;
+    box-sizing: border-box;
+    width: 480px;
+    height: 175px;
+    border-radius: 12px;
+    padding: 25px 25px 25px 36px;
+    margin-left: 22px;
+}
+
+h4{
+    color: #828282;
+    text-align: center;
+    font-size: 30px;
+    margin: 30px 0px;
+    letter-spacing: 5px;
+}
+
+.ig_icon{
+    margin: 0 450px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+}
+
+.ig_icon img{
+    width: 100%;
+}
+
+.ig_account_text{
+    margin-top: 25px;
+    color: #828282;
+    font-size: 18px;
+    padding-left: 20px;
+
+}
+
+.bottom_wrapper{
+    width: 1366px;
+    margin: 0px auto;
+    padding: 50px 0px;
+}
+
+.ig_photo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ig_photo li{
+    display: flex;
+}
 
 /* Totopbuttom */
 .totop-arrow {
