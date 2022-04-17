@@ -346,7 +346,7 @@ header{
 
 /* plan結尾 */
 .plan_end{
-    background-image: url(/img//plan_bn.png);
+    background-image: url(../img/plan_bn.png);
     background-repeat: no-repeat;
     background-position:center center;
     background-size:cover;
@@ -357,7 +357,6 @@ header{
 .plan_end h3{
     width: 800px;
     margin: 0 auto;
-    border: #C0E3EE 3px solid;
     color: white;
     font-size: 32px;
     letter-spacing: 8px;
