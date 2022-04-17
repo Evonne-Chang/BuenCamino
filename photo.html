@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buen Camino 朝聖之路</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/photo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        
+        <!-- header 最外層 -->
+        <div class="wrapper">
+
+            <!-- header main nav -->
+            <nav class="main-nav">
+                <a href="index.html"><img src="./img/logowhite2.png" alt=""></a>
+            <ul>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="routes.html">ROUTES</a></li>
+                <li><a href="plan.html">PLAN</a></li>
+                <li><a href="photo.html">PHOTO</a></li>
+                <li><a href="story.html">STORY</a></li>
+                <li><a href="event.html">EVENT</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+            </nav>
+            <!-- header main nav end-->
+
+            <!-- header right nav-->
+            <nav class="right-nav">
+                <ul>
+                    <li><a href="https://www.instagram.com/" target="_black"><img src="./img/instagram.png" alt=""></a></li>
+                    <li><a href="https://www.youtube.com/" target="_black"><img src="./img/youtube.png" alt=""></a></li>
+                    <li><a href="https://www.facebook.com/" target="_black"><img src="./img/facebook_logo.png" alt=""></a></li>
+                    <li><a href="https://twitter.com/explore" target="_black"><img src="./img/twitter.png" alt=""></a></li>
+                </ul>
+            </nav>
+            <!-- header right nav end-->
+            
+            <div class="main_title">
+                <h1>WHAT TO PLAN FOR 
+                <br>THE CAMINO DE SANTIAGO?</h1>
+            </div>
+            
+        <!-- header 最外層 end -->
+    </header>
+
+
+
+    <!-- container 最外層 -->
+    <div class="container">
+        <!-- section wrapper 最外層 -->
+        <div class="section_wrapper">
+            
+            <!-- breadcrumb麵包屑 -->
+            <ul class="breadcrumb">
+                <li class="breadcrumb_list"><a href="./index.html">Index</a></li>
+                <li></li>
+                <li class="current"> <em aria-current="page">Photo</em></li>
+            </ul>
+            <!-- breadcrumb麵包屑 end -->
+            
+            <section>
+                
+                
+            </section>
+        </div> 
+        <!-- section wrapper 最外層 end -->
+        <!-- plan 結尾 -->
+        <div class="plan_end">
+            <h3>計畫不完美，<br>遺憾也是一種完美。</h3>
+        </div>
+    </div>
+    <!-- container 最外層 end -->
+
+
+
+    <!-- Totopbuttom -->
+    <button type="button" id="BackTop" class="totop-arrow"></button>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(function(){
+            $('#BackTop').click(function(){ 
+                $('html,body').animate({scrollTop:0}, 333);
+            });
+            $(window).scroll(function() {
+                if ( $(this).scrollTop() > 300 ){
+                    $('#BackTop').fadeIn(222);
+                } else {
+                    $('#BackTop').stop().fadeOut(222);
+                }
+            }).scroll();
+        });
+    </script>
+
+     <!-- footer start -->
+     <footer>
+        <h1>朝聖之路</h1>
+        <h2>Camino de Santiago</h2>
+        <img class="footer-logo" src="img/logowhite.png" alt="">
+        <ul class="footer-nav">
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="routes.html">ROUTES</a></li>
+            <li><a href="plan.html">PLAN</a></li>
+            <li><a href="photo.html">PHOTO</a></li>
+            <li><a href="story.html">STORY</a></li>
+            <li><a href="event.html">EVENT</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
+        <ul class="footer-icon">
+            <li><a href="https://www.instagram.com/" target="_black"><img src="./img/instagram_yellow.png" alt=""></a></li>
+            <li><a href="https://www.youtube.com/" target="_black"><img src="./img/youtube-yellow.png" alt=""></a></li>
+            <li><a href="https://www.facebook.com/" target="_black"><img src="./img/facebook_yellow.png" alt=""></a></li>
+            <li><a href="https://twitter.com/explore" target="_black"><img src="./img/twitter_yellow.png" alt=""></a></li>
+        </ul>
+        <p>©2022 By Buen Camino Heal way All Rights Reserved.</p>
+        <p>本網站為緯育TibaMe前端工程師專業技術養成班第76期學員專題作品,本平台僅供學習、展示之用。若有侵權疑慮,您可以私訊 [緯育TibaMe] ,後續會由專人協助處理。</p>
+    </footer>
+    <!-- footer end -->
+    
+</body>
+</html>

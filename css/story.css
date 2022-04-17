@@ -19,11 +19,11 @@ P{
 }
 
 header{
-    background-image: url(../img/photo_mian_bn.jpg);
+    background-image: url(../img/story_mainbn.jpg);
     background-repeat: no-repeat;
     background-position:center center;
     background-size:cover;
-    height: 750px;
+    height: 870px;
 }
 
 
@@ -84,9 +84,40 @@ header{
 .main_title h1{
     color: white;
     font-size: 90px;
-    margin: 180px 0px 20px 0px;
+    letter-spacing: 10px;
+    margin: 180px 0px 0px 40px;
 }
 
+.scroll p{
+    color: white;
+    letter-spacing: 5px;
+    /* writing-mode: vertical-rl; 文字變直*/
+}
+
+.scroll span{
+    /* content: ""; */
+    display: inline-block;
+    width: 60px;
+    height: 2px;
+    background-color: white;
+}
+
+.scroll{
+    width: 160px;
+    height: 12px;
+    position: absolute;
+    transform:rotate(90deg);
+    bottom: -260px;
+    left: -55px;
+}
+
+.camino_passport img{
+    width: 280px;
+    transform:rotate(20deg);
+    position: absolute;
+    bottom: -650px;
+    right:85px;
+}
 
 
 /* header 最外層  end*/
@@ -112,7 +143,6 @@ header{
 .breadcrumb{
     display: flex;
     padding-top: 32px;
-    margin-top: 60px;
 }
 .breadcrumb a{
     color: #213375;
@@ -152,8 +182,160 @@ header{
 }
 /* breadcrumbs 麵包屑 end */
 
+/* section start */
+/* section intro */
+.story_intro{
+    margin-top: 22px;
+    border: #213375 2px solid;
+    border-radius: 20px;
+    height: 410px;
+}
+
+.story_intro_title{
+    width: 500px;
+    margin: 170px 0px 100px 80px;
+}
+
+.story_intro_title h2{
+    font-size: 24px;
+    line-height: 1.6;
+    letter-spacing: 3px;
+}
+
+.story_intro_circle{
+    width: 330px;
+    height: 330px;
+    border-radius: 50%;
+    background-color: #CEB8A3;
+    float: right;
+    margin-right: 110px;
+}
+
+.story_intro_circle p{
+    color: white;
+    font-size: 18px;
+    letter-spacing: 5px;
+    padding-left: 110px;
+    padding-top: 270px;
+}
+/* section intro end*/
 
 
+/* section behind story */
+.behindstory_title{
+    margin-top: 58px;
+    color: #213375;
+    font-size: 48px;
+    text-align: center;
+}
+
+.story_list{
+    display: flex;
+    background-image: url(../img/story_bn01.jpg);
+    background-repeat: no-repeat;
+    background-position:center center;
+    height: 700px;
+    margin: 80px 0px 400px 0px;
+}
+
+.story_item_text01{
+    background-color: #213375;
+    transform:rotate(45deg);
+    width: 400px;
+    height: 400px;
+    box-shadow: 16px 16px 0px #FFDC59;
+    margin-top: 500px;
+    margin-left: 95px;
+}
+.story_item_text02{
+    background-color: #213375;
+    transform:rotate(45deg);
+    width: 400px;
+    height: 400px;
+    box-shadow: 16px 16px 0px #FFDC59;
+    margin-top: 500px;
+    margin-left: 205px;
+}
+
+.story_item_text01 img{
+    width: 170px;
+    transform:rotate(-45deg);
+    margin-top: 60px;
+    padding-left: 30px;
+}
+
+.story_item_text01 p{
+    color: #FFDC59;
+    font-size: 20px;
+    width: 400px;
+    transform:rotate(-45deg);
+    text-align: center;
+    padding-left: 50px;
+}
+
+.story_item_text02 img{
+    width: 170px;
+    transform:rotate(-45deg);
+    margin-top: 60px;
+    padding-left: 30px;
+}
+
+.story_item_text02 p{
+    color: #FFDC59;
+    font-size: 20px;
+    width: 400px;
+    transform:rotate(-45deg);
+    text-align: center;
+    padding-left: 50px;
+}
+
+.story_list2{
+    display: flex;
+    background-image: url(../img/story_bn02.jpg);
+    background-repeat: no-repeat;
+    background-position:center center;
+    height: 700px;
+    margin: 80px 0px 400px 0px;
+}
+
+/* .story_intro_text{
+    background-color: #FFDC59;
+} */
+
+.story_intro_text p{
+    font-size: 20px;
+    text-align: center;
+    margin: 40px 0px 130px 0px;
+    line-height: 1.6;
+    letter-spacing: 4px;
+}
+
+.story_intro_text2 p{
+    font-size: 20px;
+    text-align: center;
+    margin: 40px 0px 60px 0px;
+    line-height: 1.6;
+    letter-spacing: 4px;
+}
+
+.story_intro_end{
+    display: flex;
+    width: 700px;
+    margin: 0 260px 0;
+}
+
+.story_intro_end img{
+    width: 200px;
+    display: block;
+    margin-left: 90px;
+    padding-bottom: 50px;
+}
+
+
+
+
+/* section behind story end*/
+/* section end */
 
 
 
