@@ -82,12 +82,22 @@ header{
 
 
 .main_title h1{
-    color: white;
-    font-size: 90px;
+    color: #FFDC59;
+    font-size: 64px;
+    letter-spacing: 12px;
     margin: 180px 0px 20px 0px;
+    line-height: 1.2;
 }
 
+.main_title h2{
+    color: #FFDC59;
+    font-size: 48px;
+    letter-spacing: 12px;
+}
 
+.main_title{
+    padding-left: 80px;
+}
 
 /* header 最外層  end*/
 
@@ -106,6 +116,7 @@ header{
     width: 1200px;
     margin: 0 auto;
 }
+
 
 
 /* breadcrumbs 麵包屑 */
@@ -147,13 +158,188 @@ header{
     height: 25px;
     border-radius: 10px;
     color: #213375;
-    padding-top: 7px;
-    padding-left: 10px ;
+    padding-top: 8px;
+    padding-left: 7px ;
 }
 /* breadcrumbs 麵包屑 end */
 
+/* ----------section start --------*/
+/* ig part */
+h4{
+    color: #828282;
+    text-align: center;
+    font-size: 30px;
+    margin: 30px 0px;
+    letter-spacing: 5px;
+}
+
+.ig_icon{
+    margin: 0 450px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+}
+
+.ig_icon img{
+    width: 100%;
+}
+
+.ig_account_text{
+    margin-top: 25px;
+    color: #828282;
+    font-size: 18px;
+    padding-left: 20px;
+
+}
+
+.ig_photo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ig_photo li{
+    display: flex;
+}
+
+.ig_ifm{
+    padding-bottom: 100px;
+}
+
+.photo_area{
+    display: flex;
+    justify-content: center;
+}
+
+.photo_area img{
+    display: block;
+}
+
+.photo_left{
+    padding-right: 20px;
+    width: 500px;
+}
+
+.photo_item{
+    width: 240px;
+    padding: 0px 20px 20px 0px;
+}
+
+.photo_more_wp{
+    padding: 43px 0px;
+}
+
+.photo_buttom{
+    width: 140px;
+    height: 50px;
+    background-color: #CEB8A3;
+    border: #213375 2px solid;
+    border-radius: 9px;
+    margin: 0 auto;
+}
+
+.photo_buttom a{
+    color: #213375;
+    font-size: 24px;
+    line-height: 50px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.ig_circle_bg{
+    background-color: #213375;
+    width: 290px;
+    height: 290px;
+    border-radius: 50%;
+    margin: 0 450px;
+    box-shadow: -90px 0px 0px #CEB8A3;
+}
 
 
+.ig_infro_text{
+    padding: 60px 40px;
+}
+
+.ig_infro_text p{
+    color: #CEB8A3;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.ig_infro_text a{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+}
+.ig_infro_text a:hover{
+    color: #FFDC59;
+}
+/* ig part end*/
+
+/* section bottom */
+.bottom_wrapper{
+    background-image: url(../img/photo_bottombn.jpg);
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size:cover;
+    height: 330px;
+}
+
+.photo_title{
+    display: flex;
+    justify-content: center;
+    margin: 110px 0px;
+}
+
+.photo_pic{
+    width:50px;
+}
+
+.photo_title_h3{
+    color: #213375;
+    font-size: 20px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+    line-height: 1.3;
+}
+
+/* section photo flex grow */
+.photo_flex_grow{
+    width: 1200px;
+    height: 500px;
+    outline: 2px solid #213375;
+    border-radius: 8px;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.photo_flex_grow li{
+    background-size: cover;
+    background-position: center center;
+    transition: .9s;
+    border: 8px #C0E3EE solid;
+}
+
+.photo01{
+    background-image: url(../img/photo_bottombn02.jpg);
+    flex-grow: 2;
+}
+
+.photo02{
+    background-image: url(../img/photo_bottombn03.jpg);
+    flex-grow: 2;
+}
+
+.photo03{
+    background-image: url(../img/photo_bottombn04.jpg);
+    flex-grow: 2;
+}
+
+.photo_flex_grow li:hover{
+    flex-grow: 9;
+}
+/* section bottom end */
+/* ----------section start --------*/
 
 
 
