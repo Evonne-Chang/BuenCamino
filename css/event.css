@@ -30,7 +30,6 @@ header{
 .wrapper{
     width: 1200px;
     margin: 0 auto;
-    border: #213375 2px solid;
 }
 
 
@@ -106,16 +105,17 @@ header h1{
 
 
 /* container 最外層 */
+
 .container{
     background-image: url(../img/backgroundbn.png) ;
     background-repeat: left top repeat ;
-    position: relative;
-    z-index: -1;
 }
+
 /* section wrapper 最外層 */
 .section_wrapper{
     width: 1200px;
     margin: 0 auto;
+    position: relative;
 }
 
 /* breadcrumbs 麵包屑 */
@@ -179,34 +179,32 @@ header h1{
     line-height: 50px;
 }
 
-.yellow_area{
-    position: relative;
-}
-
+/* 
 .yellow_area_top{
-    width: 100%;
-    height: 320px;
     background-color: #FFDC59;
+    height: 320px;
+    border: #213375 3px solid;
     position: absolute;
-    z-index: -1;
-    bottom: 112px;
-}
-
+    left: 0;
+    bottom:0px;
+    
+} */
+/* 
 .yellow_area_bottom{
     width: 100%;
     width: 1200px;
     height: 320px;
     background-color: #FFDC59;
-    position: absolute;
-    z-index: -1;
-    bottom: 780px;
-}
 
-/* -------section event-pic---------- */
+} */
+
+/* -------section event---------- */
 .events_list{
     display: flex;
     justify-content: center;
-    padding: 85px 20px 0px 0px;
+    padding-top: 85px;
+    position: relative;
+    z-index: 2;
 }
 
 .events_img{
@@ -219,22 +217,27 @@ header h1{
     margin-bottom: 48px;
 }
 
+.yellow_area01{
+    background: #FFDC59;
+    width: 1440px;
+    height: 320px;
+    display: block;
+    position: absolute;
+    top: 372px;
+    left: -130px;
+    z-index: -1;
+}
+
 
 /* -------section event-text---------- */
-.events_text_list{
-    display: flex;
-    justify-content: center;
-    box-sizing: border-box;
-}
 
 .events_text01{
     border: 2px solid black;
     box-sizing: border-box;
-    width: 480px;
+    width: 525px;
     height: 175px;
     border-radius: 12px;
-    padding: 25px 25px 25px 36px;
-    margin-right: 22px;
+    padding: 25px 25px 25px 45px;
 }
 
 .events_bigtitle h3{
@@ -256,10 +259,10 @@ header h1{
 .events_text02{
     border: 2px solid black;
     box-sizing: border-box;
-    width: 480px;
+    width: 525px;
     height: 175px;
     border-radius: 12px;
-    padding: 25px 25px 25px 36px;
+    padding: 25px 25px 25px 45px;
     margin-left: 22px;
 }
 
@@ -268,7 +271,7 @@ header h1{
 .buttom_gp{
     display: flex;
     margin: 0 auto;
-    width: 1000px;
+    width: 1100px;
     justify-content: space-around;
     padding: 30px;
 }
@@ -306,8 +309,9 @@ header h1{
     display: flex;
     justify-content: center;
     padding: 85px 20px 50px 0px;
+    position: relative;
+    z-index: 1;
 }
-
 
 
 .news_img{
@@ -316,27 +320,31 @@ header h1{
     width: 480px;
     height: 480px;
     box-shadow: 8px 10px 5px gainsboro;
+    margin-bottom: 48px;
+}
+
+
+.yellow_area02{
+    background: #FFDC59;
+    width: 1440px;
+    height: 320px;
+    display: block;
+    position: absolute;
+    top: 372px;
+    left: -130px;
+    z-index: -1;
 }
 
 /* -------section news-text---------- */
 
-.news_text_list{
-    display: flex;
-    justify-content: center;
-    box-sizing: border-box;
-}
-
-
 .news_text01{
     border: 2px solid black;
     box-sizing: border-box;
-    width: 480px;
+    width: 525px;
     height: 175px;
     border-radius: 12px;
-    padding: 25px 25px 25px 36px;
+    padding: 25px 25px 25px 45px;
     margin-right: 22px;
-    position: relative;
-    z-index: 2;
 }
 
 .news_bigtitle h3{
@@ -358,10 +366,10 @@ header h1{
 .news_text02{
     border: 2px solid black;
     box-sizing: border-box;
-    width: 480px;
+    width: 525px;
     height: 175px;
     border-radius: 12px;
-    padding: 25px 25px 25px 36px;
+    padding: 25px 25px 25px 45px;
     margin-left: 22px;
 }
 
@@ -408,6 +416,8 @@ h4{
     width: 240px;
     height: 240px;
 }
+/* -------section news text end---------- */
+
 
 /* Totopbuttom */
 .totop-arrow {
