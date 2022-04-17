@@ -19,11 +19,11 @@ P{
 }
 
 header{
-    background-image: url(../img/routes_mainbn.jpg);
+    background-image: url(../img/plan_main_bn.jpg);
     background-repeat: no-repeat;
     background-position:center center;
     background-size:cover;
-    height: 850px;
+    height: 800px;
 }
 
 
@@ -31,6 +31,7 @@ header{
 .wrapper{
     width: 1200px;
     margin: 0 auto;
+    position: relative;
 }
 
 /* header main nav */
@@ -79,29 +80,49 @@ header{
     width: 30px;
 }
 
+.title_line{
+    width: 15px;
+    height: 110px;
+    background-color: #213375;
+    margin: 0px 0px 20px 0px;
+}
+
 .main_title{
-    padding-top: 200px;
     margin: 0 auto;
-    width: 460px;
-    border-bottom: #FFDC59 10px solid;
-    
+    width: 900px;
+    border-left: #213375 16px solid;
 }
 
 .main_title h1{
     color: white;
-    font-size: 100px;
+    width: 900px;
+    font-size: 64px;
     text-align: center;
-    letter-spacing: 15px;
-    margin-bottom: 10px;
+    margin: 180px 0px 20px 0px;
 }
 
-h2{
-    color: white;
-    font-size: 40px;
-    text-align: center;
-    margin-top: 40px;
-    letter-spacing: 8px;
+.header_title2{
+    background-color: #213375;
+    width: 800px;
+    height: 250px;
+    position: absolute;
+    top: 675px;
+    left: 214px;
 }
+
+.header_title2 h2{
+    color: #FFDC59;
+    font-size: 42px;
+    text-align: center;
+    margin: 42px 0px ;
+}
+
+.header_title2 p{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
 /* header 最外層  end*/
 
 /* container 最外層 */
@@ -125,6 +146,7 @@ h2{
 .breadcrumb{
     display: flex;
     padding-top: 32px;
+    margin-top: 60px;
 }
 .breadcrumb a{
     color: #213375;
@@ -155,14 +177,195 @@ h2{
 
 .current{
     background-color: #C0E3EE;
-    width: 50px;
+    width: 42px;
     height: 25px;
     border-radius: 10px;
     color: #213375;
-    padding-top: 6px;
-    padding-left: 6px ;
+    padding-top: 7px;
+    padding-left: 10px ;
 }
 /* breadcrumbs 麵包屑 end */
+
+
+/*----------plan_list----------*/
+/* plan_item_pic_top */
+.plan_list{
+    display: flex;
+    justify-content: center;
+    margin-top:120px;
+    position: relative;
+}
+
+.plan_img_bg img{
+    width: 350px;
+    height: 350px;
+}
+
+.plan_img_bg{
+    /* margin-top: 100px; */
+    background-color: #C0E3EE;
+    width: 375px;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+/* plan_item_pic_top end */
+
+/* plan_item_text_top */
+.plan_list_text{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.plan_item_text{
+    width: 320px;
+    height: 284px;
+    background-image: url(../img/plan_textbg.png);
+}
+
+.plan_item_text p{
+    padding: 35px 0px 0px 16px;
+    font-size: 13px;
+    margin: 39px;
+    line-height: 1.6;
+    /* text-align: center; */
+}
+
+.plan_text_01{
+    background-color: #213375;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 216px;
+}
+
+.plan_text_01 p{
+    color: white;
+    font-size: 24px;
+    letter-spacing: 10px;
+    padding: 17px 0 0 20px;
+}
+
+
+.plan_text_02{
+    background-color: #213375;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    right: 472px;
+}
+
+.plan_text_02 p{
+    color: white;
+    font-size: 24px;
+    letter-spacing: 10px;
+    padding: 17px 0 0 20px;
+}
+/* plan_item_text_top end*/
+
+/* plan_item_pic_bottom */
+.plan_list_bottom{
+    display: flex;
+    justify-content: center;
+    margin-top:120px;
+    position: relative;
+}
+
+.plan_img_bg img{
+    width: 350px;
+    height: 350px;
+}
+
+.plan_img_bg{
+    /* margin-top: 100px; */
+    background-color: #C0E3EE;
+    width: 375px;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+/* plan_item_pic_top end */
+
+/* plan_item_text_top */
+.plan_list_text_bottom{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.plan_item_text_bottom{
+    width: 320px;
+    height: 284px;
+    background-image: url(../img/plan_textbg.png);
+}
+
+.plan_item_text_bottom p{
+    padding: 35px 0px 0px 16px;
+    font-size: 13px;
+    margin: 39px;
+    line-height: 1.6;
+}
+
+.plan_text_03{
+    background-color: #213375;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 216px;
+}
+
+.plan_text_03 p{
+    color: white;
+    font-size: 24px;
+    letter-spacing: 10px;
+    padding: 17px 0 0 20px;
+}
+
+
+.plan_text_04{
+    background-color: #213375;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    right: 472px;
+}
+
+.plan_text_04 p{
+    color: white;
+    font-size: 24px;
+    letter-spacing: 10px;
+    padding: 17px 0 0 20px;
+}
+/* plan_item_text_top end*/
+/*-----------plan_list end------------ */
+
+/* plan結尾 */
+.plan_end{
+    background-image: url(/img//plan_bn.png);
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size:cover;
+    height: 475px;
+    margin: 200px 0px 180px 0px;
+}
+
+.plan_end h3{
+    width: 800px;
+    margin: 0 auto;
+    border: #C0E3EE 3px solid;
+    color: white;
+    font-size: 32px;
+    letter-spacing: 8px;
+    line-height: 1.6;
+    padding: 200px 0px 0px 180px;
+}
+
+
 
 
 
