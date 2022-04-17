@@ -200,8 +200,8 @@ header h1{
 	cursor: pointer;
 }
 .faq_section .cp_actab label:hover {
-    background-color: #213375;
-	color: #FFDC59;
+    background-color: #FFDC59;
+	color: #213375;
 }
 /* answer */
 .faq_section .cp_actab .cp_actab-content {
@@ -209,7 +209,7 @@ header h1{
 	max-height: 0;
 	-webkit-transition: max-height 0.5s ease;
 	        transition: max-height 0.5s ease;
-	color: rgb(255, 255, 255);
+	color: #213375;
     font-size: 17px;
 	background: #CEB8A3;
 }
@@ -218,7 +218,8 @@ header h1{
 }
 /* answer after hover */
 .faq_section .cp_actab input:checked ~ label {
-	color: black;
+    background-color: #213375;
+	color: #FFDC59;
 }
 .faq_section .cp_actab input:checked ~ .cp_actab-content {
 	max-height: 300em;
@@ -242,11 +243,16 @@ header h1{
 .faq_section .cp_actab input[type=checkbox]:checked + label::after {
 	-webkit-transform: rotateX(180deg);
 	transform: rotateX(180deg);
+    transform: scale(1.5);
 }
 /* ---------------- faq end -----------*/
 
 
 /* ------ e-mail ---------- */
+.email_wp{
+    padding-bottom: 100px;
+}
+
 .email_area{
     border: 1px solid black;
     width: 900px;

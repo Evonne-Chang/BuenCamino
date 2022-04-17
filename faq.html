@@ -162,11 +162,13 @@
                 <!--faq end-->
 
                 <!--Email-->
-                <div class="email_area">
-                    <h3>If You Have Another Question, Please E-mail Us.</h3>
-                    <h4>Or You wanna Share Your Story With Us.</h4>
-                    <img src="./img/faq_pic02.png" alt="">
-                    <p>E-Mail:buencaminohealway@hotmail.com</p>
+                <div class="email_wp">
+                    <div class="email_area">
+                        <h3>If You Have Another Question, Please E-mail Us.</h3>
+                        <h4>Or You wanna Share Your Story With Us.</h4>
+                        <img src="./img/faq_pic02.png" alt="">
+                        <p>E-Mail:buencaminohealway@hotmail.com</p>
+                    </div>
                 </div>
             </div> 
             <!-- section wrapper 最外層 -->
@@ -179,20 +181,7 @@
     <!-- Totopbuttom -->
     <button type="button" id="BackTop" class="totop-arrow"></button>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script>
-        $(function(){
-            $('#BackTop').click(function(){ 
-                $('html,body').animate({scrollTop:0}, 333);
-            });
-            $(window).scroll(function() {
-                if ( $(this).scrollTop() > 300 ){
-                    $('#BackTop').fadeIn(222);
-                } else {
-                    $('#BackTop').stop().fadeOut(222);
-                }
-            }).scroll();
-        });
-    </script>
+    <script src="./js/totop-arrow.js"></script>
 
      <!-- footer start -->
      <footer>
