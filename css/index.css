@@ -147,7 +147,7 @@ header{
     height: 12px;
     position: absolute;
     transform:rotate(90deg);
-    bottom: 65px;
+    bottom: -230px;
     left: -55px;
 }
 /* header end */
