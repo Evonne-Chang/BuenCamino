@@ -173,6 +173,7 @@ header h1{
 }
 .faq_section {
     padding-bottom: 70px ;
+    border-top: #213375 1px solid;
 }
 .faq_section .cp_actab {
 	position: relative;
@@ -203,15 +204,17 @@ header h1{
     background-color: #FFDC59;
 	color: #213375;
 }
+
+
 /* answer */
 .faq_section .cp_actab .cp_actab-content {
 	overflow: hidden;
 	max-height: 0;
 	-webkit-transition: max-height 0.5s ease;
 	        transition: max-height 0.5s ease;
-	color: #213375;
+	color: black;
     font-size: 17px;
-	background: #CEB8A3;
+	background: white;
 }
 .faq_section .cp_actab .cp_actab-content p {
 	margin: 1em;
@@ -223,6 +226,7 @@ header h1{
 }
 .faq_section .cp_actab input:checked ~ .cp_actab-content {
 	max-height: 300em;
+    border: #213375 1px solid;
 }
 /* icon after hover */
 .faq_section .cp_actab label::after {
