@@ -67,6 +67,11 @@ header{
 .main-nav a:hover{
     color: #FFDC59;
 }
+
+.main-nav li:nth-child(3) a{
+    color: #FFDC59;
+}
+
 /* header main nav end */
 
 /* header right nav */
