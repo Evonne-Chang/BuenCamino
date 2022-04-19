@@ -34,62 +34,22 @@ header{
 }
 
 /* header main nav */
-.main-nav img{
-    width: 120px;
-}
-
-.main-nav{
-    font-family: Arial;
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    padding-top: 50px
-}
-
-.main-nav ul{
-    display: flex;
-    width: 800px;
-    margin-left: 308px ;
-    /* padding-left: 250px; */
-}
-
-.main-nav li{
-    font-size: 15px;
-    flex-grow: 1;
-    flex-basis: 0;
-}
-
-.main-nav a{
-    line-height: 40px;
-}
-
-.main-nav a:hover{
-    color: #FFDC59;
-}
 
 .main-nav li:nth-child(1) a{
     color: #FFDC59;
 }
 /* header main nav end */
 
-/* header right nav */
-.right-nav{
-    width: 40px;
-    float: right;
-    padding-top: 217px;
-}
 
-.right-nav img{
-    width: 30px;
-}
 
+/* header title */
 header h1{
     color: white;
     font-size: 60px;
     text-align: center;
     margin-top: 230px;
 }
-/* header 最外層  end*/
+/* header title end*/
 
 
 
@@ -107,8 +67,13 @@ header h1{
     width: 100%;
 }
 
-.wrapper-top{
-    width: 1440px;
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.wrapper_main{
+    width: 1366px;
     margin: 0 auto;
 }
 
@@ -281,8 +246,8 @@ h3{
     width: 140px;
     height: 67px;
     position: absolute;
-    top: 482px;
-    left: 502px;
+    top: 483px;
+    left: 500px;
 }
 
 .skybluebg03{
