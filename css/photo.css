@@ -252,6 +252,15 @@ h4{
     letter-spacing: 3px;
 }
 
+.photo_buttom:hover{
+    background-color: #213375;
+    border: #CEB8A3 2px solid;
+}
+
+.photo_buttom a:hover{
+    color: #CEB8A3;
+}
+
 .ig_circle_bg{
     background-color: #213375;
     width: 290px;
