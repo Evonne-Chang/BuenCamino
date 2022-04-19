@@ -293,6 +293,15 @@ header h1{
     line-height: 50px;
 }
 
+.buttom:hover{
+    transform: scale(1.2);
+}
+
+.buttom a:hover{
+    color: #FFDC59;
+
+}
+
 /* ------section news--------- */
 .news_title {
     margin: 0 auto;
