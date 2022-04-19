@@ -76,6 +76,7 @@ header{
 }
 /* header right nav end */
 
+
 .header-title{
     margin-top: 150px;
 }
@@ -93,6 +94,7 @@ header{
     font-size: 86px;
     letter-spacing: 10px;
     text-align: center;
+    /* animation: titleh2 .4s cubic-bezier(0,.63,.4,.80) forwards; */
 }
 
 .header-title h3{
@@ -101,7 +103,27 @@ header{
     font-size: 36px;
     letter-spacing: 4px;
     text-align: center;
+    /* animation: titleh3 .4s cubic-bezier(0,.63,.4,.80) forwards; */
 }
+
+/* @keyframes titleh2{
+	0%{
+		transform:scale(0) ; opacity:0;
+	}
+	100%{
+		transform: scale(1); opacity: 1;
+	}
+} */
+
+/* @keyframes titleh3{
+	0%{
+		transform:scale(0) ; opacity:0;
+	}
+	100%{
+		transform: scale(1); opacity: 1;
+	}
+} */
+
 
 .header-title2{
     background-color: #FFDC59;
@@ -261,6 +283,7 @@ header{
     margin-left: 12px;
     margin-top: 12px;
 }
+
 
 
 .introimg p{

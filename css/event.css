@@ -216,7 +216,7 @@ header h1{
     border: 10px solid white;
     width: 480px;
     height: 480px;
-    box-shadow: 8px 10px 5px gainsboro;
+    box-shadow: 8px 10px 8px rgba(206, 205, 205, 0.7);
     display: block;
     margin-bottom: 48px;
 }
@@ -396,13 +396,15 @@ h4{
 
 .ig_icon{
     margin: 0 450px;
-    width: 100px;
-    height: 100px;
     display: flex;
 }
 
 .ig_icon img{
-    width: 100%;
+    width: 100px;
+}
+
+.ig_icon img:hover{
+    transform: scale(1.2);
 }
 
 .ig_account_text{
