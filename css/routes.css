@@ -192,36 +192,13 @@ h2{
 }
 
 /* change-maps */
-.map_show{
+
+.maps_bn{
+    display: none;
+}
+
+.maps_show{
     display: block;
-}
-
-.map_01{
-    display: none;
-}
-
-.map_02{
-    display: none;
-}
-
-.map_03{
-    display: none;
-}
-
-.map_04{
-    display:none;
-}
-
-.map_05{
-    display:none;
-}
-
-.map_06{
-    display:none;
-}
-
-.map_07{
-    display:none;
 }
 
 /* ----------routes map end---------  */
