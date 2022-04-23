@@ -149,7 +149,7 @@ h2{
 
 .map_left_nav{
     width: 320px;
-    padding-top: 320px;
+    padding-top: 282px;
     position: relative;
 }
 
@@ -159,13 +159,13 @@ h2{
     padding: 0 0 20px 150px;    
 }
 
-.routes_buttom{
+.routes_buttons{
     width: 200px;
-    height: 283px;
+    height: 321px;
     background-color: #FFDC59;
     margin-left: 120px;
 }
-.routes_buttom a{
+.routes_buttons a{
     display: block;
     color: #213375;
     font-size: 18px;
@@ -173,12 +173,12 @@ h2{
     padding-top: 14px;
 }
 
-.routes_buttom a:hover{
+.routes_buttons a:hover{
     color: white;
 }
 .routes_color_list{
     width: 25px;
-    height: 283px;
+    height: 321px;
     background-color: #FFDC59;
     position: absolute;
     left: 100px;
@@ -190,6 +190,40 @@ h2{
     padding-left: 16px;
     margin-bottom: 7px;
 }
+
+/* change-maps */
+.map_show{
+    display: block;
+}
+
+.map_01{
+    display: none;
+}
+
+.map_02{
+    display: none;
+}
+
+.map_03{
+    display: none;
+}
+
+.map_04{
+    display:none;
+}
+
+.map_05{
+    display:none;
+}
+
+.map_06{
+    display:none;
+}
+
+.map_07{
+    display:none;
+}
+
 /* ----------routes map end---------  */
 
 /* routes list 朝聖之路介紹 */

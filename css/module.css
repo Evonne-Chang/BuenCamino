@@ -8,7 +8,7 @@
 
 /* header main nav */
 .main-nav img{
-    width: 120px;
+    width: 170px;
 }
 
 .main-nav{
@@ -16,7 +16,7 @@
     box-sizing: border-box;
     display: flex;
     align-items: center;
-    padding-top: 50px
+    padding-top: 15px
 }
 
 .main-nav ul{
@@ -44,11 +44,12 @@
 .right-nav{
     width: 40px;
     float: right;
-    padding-top: 217px;
+    padding-top: 170px;
 }
 
 .right-nav img{
     width: 30px;
+    padding-top: 10px;
 }
 /* header right nav end */
 
@@ -134,8 +135,6 @@ footer p{
 	padding: 0;
 	margin: 0;
 	border: 0;
-	border-radius: 20%;
-	/* opacity: 0.9; */
 	background: #FFDC59;
 	cursor: pointer;
 	position:fixed;
@@ -146,7 +145,7 @@ footer p{
 .totop-arrow::before, .totop-arrow::after {
 	width: 18px;
 	height: 5px;
-	border-radius: 3px;
+	border-radius: 2px;
 	background: #213375;
 	position: absolute;
 	content: "";

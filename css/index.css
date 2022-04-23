@@ -5,6 +5,7 @@ body{
     color: black;
     font-family: 'Times New Roman','Arail','Noto Sans TC', sans-serif;
     /* 'PMingLiU' */
+    min-width: 1200px;
 }
 
 a{
@@ -106,17 +107,17 @@ header{
 .scroll span{
     /* content: ""; */
     display: inline-block;
-    width: 60px;
+    width: 70px;
     height: 2px;
     background-color: white;
 }
 
 .scroll{
-    width: 160px;
+    width: 200px;
     height: 12px;
     position: absolute;
     transform:rotate(90deg);
-    bottom: -230px;
+    bottom: -225px;
     left: -55px;
 }
 /* header end */

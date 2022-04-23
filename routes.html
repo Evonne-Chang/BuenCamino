@@ -60,7 +60,9 @@
             <!-- breadcrumb麵包屑 -->
             <ul class="breadcrumb">
                 <li class="breadcrumb_list"><a href="./index.html">Index</a></li>
-                <li></li>
+                <div class="arrowed">
+                    <div class="arrow"></div>
+                </div>
                 <li class="current"> <em aria-current="page">Routes</em></li>
                 </ul>
             <!-- breadcrumb麵包屑 end -->
@@ -68,7 +70,15 @@
             <section>
                 <div class="map_bg">
                     <div class="map_bn">
-                        <img src="./img/map.jpg" alt="">
+                        <img class="map_all maps_bn map_show" src="./img/map.jpg" alt="">
+                        <img class="map_01 maps_bn" src="./img/map_norte.jpg" alt="">
+                        <img class="map_02 maps_bn" src="./img/map_frances.jpg" alt="">
+                        <img class="map_03 maps_bn" src="./img/map_finisterre.jpg" alt="">
+                        <img class="map_04 maps_bn" src="./img/map_ingles.jpg" alt="">
+                        <img class="map_05 maps_bn" src="./img/map_viadalaplata.jpg" alt="">
+                        <img class="map_06 maps_bn" src="./img/map_portugues.jpg" alt="">
+                        <img class="map_07 maps_bn" src="./img/map_lepuy.jpg" alt="">
+                        
                     </div>
                     <div class="map_left_nav">
                         <div class="third_title">
@@ -76,23 +86,26 @@
                             <br>by Routes</h3>
                         </div>
                         <div class="routes_color_list">
+                            <div class="routes_color"><img src="./img/caminoall.png" alt=""></div>
                             <div class="routes_color"><img src="./img/caminodelnorte.png" alt=""></div>
                             <div class="routes_color"><img src="./img/caminofrances.png" alt=""></div>
                             <div class="routes_color"><img src="./img/caminofinisterre.png" alt=""></div>
                             <div class="routes_color"><img src="./img/caminoingles.png" alt=""></div>
                             <div class="routes_color"><img src="./img/caminoviadalaplata.png" alt=""></div>
                             <div class="routes_color"><img src="./img/caminoportuges.png" alt=""></div>
-                            <div class="routes_color"><img src="./img/caminoall.png" alt=""></div>
+                            <div class="routes_color"><img src="./img/caminolepuy.png" alt=""></div>
+                            
                         </div>
                         
-                        <div class="routes_buttom">
-                            <a href="#">Camino del Norte</a>
-                            <a href="#">Camino Frances</a>
-                            <a href="#">Camino Finisterre</a>
-                            <a href="#">Camino Ingles</a>
-                            <a href="#">Via da la Plata</a>
-                            <a href="#">Camino Portugues</a>
-                            <a href="#">All Camino</a>
+                        <div class="routes_buttons">
+                            <a class="routes_button" data-id="map" href="#">All Camino</a>
+                            <a class="routes_button" data-id="map_norte" href="#">Camino del Norte</a>
+                            <a class="routes_button" data-id="map_frances" href="#">Camino Frances</a>
+                            <a class="routes_button" data-id="map_finisterre" href="#">Camino Finisterre</a>
+                            <a class="routes_button" data-id="map_ingles" href="#">Camino Ingles</a>
+                            <a class="routes_button" data-id="map_viadalaplata" href="#">Via da la Plata</a>
+                            <a class="routes_button" data-id="map_portugues" href="#">Camino Portugues</a>
+                            <a class="routes_button" data-id="map_lepuy" href="#">Camino Le Puy</a>     
                         </div>
                     </div>
                 </div>
@@ -228,6 +241,7 @@
     <button type="button" id="BackTop" class="totop-arrow"></button>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="./js/totop-arrow.js"></script>
+    <script src="./js/click_button_map.js"></script>
 
      <!-- footer start -->
      <footer>

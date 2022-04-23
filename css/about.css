@@ -20,6 +20,7 @@ P{
 
 header{
     background-image: url(../img/about_mainbn.png);
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position:center center;
     background-size:cover;
@@ -107,7 +108,7 @@ header h1{
     background-color: #FFDC59;
     width: 50px;
     height: 30px;
-    border-radius: 10px;
+    /* border-radius: 5px; */
 }
 
 .breadcrumb a:hover{
@@ -129,7 +130,6 @@ header h1{
     background-color: #C0E3EE;
     width: 50px;
     height: 25px;
-    border-radius: 10px;
     color: #213375;
     padding-top: 6px;
     padding-left: 6px ;
@@ -174,9 +174,15 @@ h3{
     clear: both;
     position: absolute;
     z-index: 2;
-    bottom: 304px;
-    left: 215px;
+    bottom: 290px;
+    left: 180px;
+    line-height: 1.6;
+    text-indent:40px;
+    letter-spacing: 3px;
+    text-align: justify
 }
+
+
 
 .about_text_what{
     background-color: #FFDC59;
@@ -232,6 +238,10 @@ h3{
     clear: both;
     position: absolute;
     z-index: 2;
+    line-height: 1.6;
+    text-indent:40px;
+    letter-spacing: 3px;
+    text-align: justify
 }
 
 
@@ -261,9 +271,14 @@ h3{
 
 .about_titlebottom p{
     position: absolute;
-    top: 570px;
-    left: 286px;
+    top: 585px;
+    left: 126px;
     z-index: 2;
+    width: 500px;
+    line-height: 1.6;
+    text-indent:40px;
+    letter-spacing: 3px;
+    text-align: justify
 }
 
 
@@ -290,6 +305,7 @@ h3{
     color: #213375;
     text-align: center;
     padding-top: 35px;
+    
 }
 
 .where_textbg01{
