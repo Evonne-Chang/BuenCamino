@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="icon" href="./img/Logo.ico" type="image/icon"/>
 </head>
 <body>
     <header>
@@ -20,16 +22,28 @@
 
             <!-- header main nav -->
             <nav class="main-nav">
-                <a href="index.html"><img src="./img/logowhite2.png" alt=""></a>
-            <ul>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="routes.html">ROUTES</a></li>
-                <li><a href="plan.html">PLAN</a></li>
-                <li><a href="photo.html">PHOTO</a></li>
-                <li><a href="story.html">STORY</a></li>
-                <li><a href="event.html">EVENT</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-            </ul>
+                <a href="index.html" class="nav-logo"><img src="./img/logowhite2.png" alt=""></a>
+                <ul class="nav-menu">
+                    <a href="index.html" class="nav-logo-ph"><img src="./img/logowhite2.png" alt=""></a>
+                    <li class="nav-item"><a href="about.html" class="nav-link" >ABOUT</a></li>
+                    <li class="nav-item"><a href="routes.html" class="nav-link">ROUTES</a></li>
+                    <li class="nav-item"><a href="plan.html" class="nav-link">PLAN</a></li>
+                    <li class="nav-item"><a href="photo.html" class="nav-link">PHOTO</a></li>
+                    <li class="nav-item"><a href="story.html" class="nav-link">STORY</a></li>
+                    <li class="nav-item"><a href="event.html" class="nav-link">EVENT</a></li>
+                    <li class="nav-item"><a href="faq.html" class="nav-link">FAQ</a></li>
+                    <nav class="right-nav-ph">
+                        <a href="https://www.instagram.com/" target="_black"><img src="./img/instagram_yellow.png" alt=""></a>
+                        <a href="https://www.youtube.com/" target="_black"><img src="./img/youtube-yellow.png" alt=""></a>
+                        <a href="https://www.facebook.com/" target="_black"><img src="./img/facebook_yellow.png" alt=""></a>
+                        <a href="https://twitter.com/explore" target="_black"><img src="./img/twitter_yellow.png" alt=""></a>
+                    </nav>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar" id="bar1"></span>
+                    <span class="bar" id="bar2"></span>
+                    <span class="bar" id="bar3"></span>
+                </div>
             </nav>
             <!-- header main nav end-->
 
@@ -65,7 +79,7 @@
             <!-- breadcrumb麵包屑 -->
             <ul class="breadcrumb">
                 <li class="breadcrumb_list"><a href="./index.html">Index</a></li>
-                <li></li>
+                <i class="fa-solid fa-angles-right"></i>
                 <li class="current"> <em aria-current="page">Photo</em></li>
             </ul>
             <!-- breadcrumb麵包屑 end -->
@@ -160,6 +174,7 @@
     <!-- Totopbuttom -->
     <button type="button" id="BackTop" class="totop-arrow"></button>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./js/module.js"></script>
     <script src="./js/totop-arrow.js"></script>
 
      <!-- footer start -->
@@ -182,8 +197,9 @@
             <li><a href="https://www.facebook.com/" target="_black"><img src="./img/facebook_yellow.png" alt=""></a></li>
             <li><a href="https://twitter.com/explore" target="_black"><img src="./img/twitter_yellow.png" alt=""></a></li>
         </ul>
-        <p>©2022 By Buen Camino Heal way All Rights Reserved.</p>
-        <p>本網站為緯育TibaMe前端工程師專業技術養成班第76期學員專題作品,本平台僅供學習、展示之用。若有侵權疑慮,您可以私訊 [緯育TibaMe] ,後續會由專人協助處理。</p>
+        <p class="footer-p1">©2022 By Buen Camino Heal way All Rights Reserved.</p>
+        <p class="footer-p2">本網站為緯育TibaMe前端工程師專業技術養成班第76期學員專題作品,本平台僅供學習、展示之用。若有侵權疑慮,您可以私訊 [緯育TibaMe] ,後續會由專人協助處理。</p>
+        <p class="footer-p3">本網站為緯育TibaMe前端工程師專業技術養成班第76期學員專題作品,本平台僅供學習、展示之用。</p>
     </footer>
     <!-- footer end -->
     

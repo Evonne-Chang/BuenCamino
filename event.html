@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="icon" href="./img/Logo.ico" type="image/icon"/>
 </head>
 <body>
     <header>
@@ -20,16 +22,28 @@
 
             <!-- header main nav -->
             <nav class="main-nav">
-                <a href="index.html"><img src="./img/logowhite2.png" alt=""></a>
-            <ul>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="routes.html">ROUTES</a></li>
-                <li><a href="plan.html">PLAN</a></li>
-                <li><a href="photo.html">PHOTO</a></li>
-                <li><a href="story.html">STORY</a></li>
-                <li><a href="event.html">EVENT</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-            </ul>
+                <a href="index.html" class="nav-logo"><img src="./img/logowhite2.png" alt=""></a>
+                <ul class="nav-menu">
+                    <a href="index.html" class="nav-logo-ph"><img src="./img/logowhite2.png" alt=""></a>
+                    <li class="nav-item"><a href="about.html" class="nav-link" >ABOUT</a></li>
+                    <li class="nav-item"><a href="routes.html" class="nav-link">ROUTES</a></li>
+                    <li class="nav-item"><a href="plan.html" class="nav-link">PLAN</a></li>
+                    <li class="nav-item"><a href="photo.html" class="nav-link">PHOTO</a></li>
+                    <li class="nav-item"><a href="story.html" class="nav-link">STORY</a></li>
+                    <li class="nav-item"><a href="event.html" class="nav-link">EVENT</a></li>
+                    <li class="nav-item"><a href="faq.html" class="nav-link">FAQ</a></li>
+                    <nav class="right-nav-ph">
+                        <a href="https://www.instagram.com/" target="_black"><img src="./img/instagram_yellow.png" alt=""></a>
+                        <a href="https://www.youtube.com/" target="_black"><img src="./img/youtube-yellow.png" alt=""></a>
+                        <a href="https://www.facebook.com/" target="_black"><img src="./img/facebook_yellow.png" alt=""></a>
+                        <a href="https://twitter.com/explore" target="_black"><img src="./img/twitter_yellow.png" alt=""></a>
+                    </nav>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar" id="bar1"></span>
+                    <span class="bar" id="bar2"></span>
+                    <span class="bar" id="bar3"></span>
+                </div>
             </nav>
             <!-- header main nav end-->
 
@@ -62,7 +76,7 @@
             <!-- breadcrumb麵包屑 -->
             <ul class="breadcrumb">
                 <li class="breadcrumb_list"><a href="./index.html">Index</a></li>
-                <li></li>
+                <i class="fa-solid fa-angles-right"></i>
                 <li class="current"> <em aria-current="page">Event</em></li>
             </ul>
             <!-- breadcrumb麵包屑 end -->
@@ -82,9 +96,7 @@
                             <div class="events_bigtitle">
                                 <h3>2022-May</h3>
                             </div>
-                            <p>一年一度的朝聖者的聚會,可以互相分享
-                            <br>故事，各個朝聖路線路途經驗、照片、
-                            <br>規劃，相約同行。</p>
+                            <p>一年一度的朝聖者的聚會,可以互相分享故事，各個朝聖路線路途經驗、照片、規劃，相約同行。</p>
                         </div>
                     </div> 
                     <div>
@@ -95,9 +107,7 @@
                             <div class="events_bigtitle">
                                 <h3>2022-Dec</h3>
                             </div>
-                            <p>朝聖者的旅前體能訓練活動，規劃七天
-                            <br>六夜健行登山行程，主要著重在肌耐力
-                            <br>及負重訓練。</p>
+                            <p>朝聖者的旅前體能訓練活動，規劃七天六夜健行登山行程，主要著重在肌耐力及負重訓練。</p>
                         </div>
                     </div>
                     <div>
@@ -134,9 +144,7 @@
                                 <div class="news_bigtitle">
                                     <h3>2022-Aug</h3>
                                 </div>
-                                <p>BUEN ALBERGUE八月新開幕,住宿每
-                                <br>晚優惠價5歐元，提供道地西班牙餐點
-                                <br>優惠價5歐元，各式設備齊全。</p>
+                                <p>BUEN ALBERGUE八月新開幕,住宿每晚優惠價5歐元，提供道地西班牙餐點優惠價5歐元，各式設備齊全。</p>
                             </div>
                         </div>   
                     </div> 
@@ -149,9 +157,7 @@
                                 <div class="news_bigtitle">
                                     <h3>2022-Sep</h3>
                                 </div>
-                                <p>全新舒適機能型品牌即將推出，各式透
-                                <br>氣排汗服飾，減輕負載機能登山包等等
-                                <br>優惠特價中。</p>
+                                <p>全新舒適機能型品牌即將推出，各式透氣排汗服飾，減輕負載機能登山包等等優惠特價中。</p>
                             </div>
                         </div>
                     </div>
@@ -196,7 +202,7 @@
         <div class="container">        
             <div class="bottom_wrapper">
                 <ul class="ig_photo">
-                    <li><img src="./img/ig_photo.jpg" alt=""></li>
+                    <li><img src="./img/ig_photo_s.png" alt=""></li>
                     <li><img src="./img/ig_photo02.jpg" alt=""></li>
                     <li><img src="./img/ig_photo03.jpg" alt=""></li>
                     <li><img src="./img/ig_photo04.jpg" alt=""></li>
@@ -214,6 +220,7 @@
     <!-- Totopbuttom -->
     <button type="button" id="BackTop" class="totop-arrow"></button>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./js/module.js"></script>
     <script src="./js/totop-arrow.js"></script>
 
      <!-- footer start -->
@@ -236,8 +243,9 @@
             <li><a href="https://www.facebook.com/" target="_black"><img src="./img/facebook_yellow.png" alt=""></a></li>
             <li><a href="https://twitter.com/explore" target="_black"><img src="./img/twitter_yellow.png" alt=""></a></li>
         </ul>
-        <p>©2022 By Buen Camino Heal way All Rights Reserved.</p>
-        <p>本網站為緯育TibaMe前端工程師專業技術養成班第76期學員專題作品,本平台僅供學習、展示之用。若有侵權疑慮,您可以私訊 [緯育TibaMe] ,後續會由專人協助處理。</p>
+        <p class="footer-p1">©2022 By Buen Camino Heal way All Rights Reserved.</p>
+        <p class="footer-p2">本網站為緯育TibaMe前端工程師專業技術養成班第76期學員專題作品,本平台僅供學習、展示之用。若有侵權疑慮,您可以私訊 [緯育TibaMe] ,後續會由專人協助處理。</p>
+        <p class="footer-p3">本網站為緯育TibaMe前端工程師專業技術養成班第76期學員專題作品,本平台僅供學習、展示之用。</p>
     </footer>
     <!-- footer end -->
     

@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="icon" href="./img/Logo.ico" type="image/icon"/>
 </head>
 <body>
     <header>
@@ -20,16 +22,28 @@
 
             <!-- header main nav -->
             <nav class="main-nav">
-                <a href="index.html"><img src="./img/logowhite2.png" alt=""></a>
-            <ul>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="routes.html">ROUTES</a></li>
-                <li><a href="plan.html">PLAN</a></li>
-                <li><a href="photo.html">PHOTO</a></li>
-                <li><a href="story.html">STORY</a></li>
-                <li><a href="event.html">EVENT</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-            </ul>
+                <a href="index.html" class="nav-logo"><img src="./img/logowhite2.png" alt=""></a>
+                <ul class="nav-menu">
+                    <a href="index.html" class="nav-logo-ph"><img src="./img/logowhite2.png" alt=""></a>
+                    <li class="nav-item"><a href="about.html" class="nav-link" >ABOUT</a></li>
+                    <li class="nav-item"><a href="routes.html" class="nav-link">ROUTES</a></li>
+                    <li class="nav-item"><a href="plan.html" class="nav-link">PLAN</a></li>
+                    <li class="nav-item"><a href="photo.html" class="nav-link">PHOTO</a></li>
+                    <li class="nav-item"><a href="story.html" class="nav-link">STORY</a></li>
+                    <li class="nav-item"><a href="event.html" class="nav-link">EVENT</a></li>
+                    <li class="nav-item"><a href="faq.html" class="nav-link">FAQ</a></li>
+                    <nav class="right-nav-ph">
+                        <a href="https://www.instagram.com/" target="_black"><img src="./img/instagram_yellow.png" alt=""></a>
+                        <a href="https://www.youtube.com/" target="_black"><img src="./img/youtube-yellow.png" alt=""></a>
+                        <a href="https://www.facebook.com/" target="_black"><img src="./img/facebook_yellow.png" alt=""></a>
+                        <a href="https://twitter.com/explore" target="_black"><img src="./img/twitter_yellow.png" alt=""></a>
+                    </nav>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar" id="bar1"></span>
+                    <span class="bar" id="bar2"></span>
+                    <span class="bar" id="bar3"></span>
+                </div>
             </nav>
             <!-- header main nav end-->
 
@@ -60,15 +74,27 @@
             <!-- breadcrumb麵包屑 -->
             <ul class="breadcrumb">
                 <li class="breadcrumb_list"><a href="./index.html">Index</a></li>
-                <div class="arrowed">
-                    <div class="arrow"></div>
-                </div>
+                <i class="fa-solid fa-angles-right"></i>
                 <li class="current"> <em aria-current="page">Routes</em></li>
                 </ul>
             <!-- breadcrumb麵包屑 end -->
             
             <section>
+                <div class="third_title_ph">
+                    <h3>Search by Routes</h3>
+                </div>
+                <div class="routes_buttons_ph">
+                    <a class="routes_button" id="map_all" href="#"><i class="fa-solid fa-circle"></i><span class="mapa color_ch">All Camino</span></a>
+                    <a class="routes_button" id="map_norte" href="#"><i class="fa-solid fa-circle c01"></i><span class="mapa">Camino del Norte</span></a>
+                    <a class="routes_button" id="map_frances" href="#"><i class="fa-solid fa-circle c02"></i><span class="mapa">Camino Frances</span></a>
+                    <a class="routes_button" id="map_finisterre" href="#"><i class="fa-solid fa-circle c03"></i><span class="mapa">Camino Finisterre</span></a>
+                    <a class="routes_button" id="map_ingles" href="#"><i class="fa-solid fa-circle c04"></i><span class="mapa">Camino Ingles</span></a>
+                    <a class="routes_button" id="map_viadalaplata" href="#"><i class="fa-solid fa-circle c05"></i><span class="mapa">Via da la Plata</span></a>
+                    <a class="routes_button" id="map_portugues" href="#"><i class="fa-solid fa-circle c06"></i><span class="mapa">Camino Portugues</span></a>
+                    <a class="routes_button" id="map_lepuy" href="#"><i class="fa-solid fa-circle c07"></i><span class="mapa">Camino Le Puy</span></a>    
+                </div>
                 <div class="map_bg">
+            
                     <div class="map_bn">
                         <img id="map_all_i" class="maps_bn maps_show" src="./img/map.jpg" alt="">
                         <img id="map_norte_i" class="maps_bn" src="./img/map_norte.jpg" alt="">
@@ -77,15 +103,14 @@
                         <img id="map_ingles_i" class="maps_bn" src="./img/map_ingles.jpg" alt="">
                         <img id="map_viadalaplata_i" class="maps_bn" src="./img/map_viadalaplata.jpg" alt="">
                         <img id="map_portugues_i" class="maps_bn" src="./img/map_portugues.jpg" alt="">
-                        <img id="map_lepuy_i" class="maps_bn" src="./img/map_lepuy.jpg" alt="">
-                        
+                        <img id="map_lepuy_i" class="maps_bn" src="./img/map_lepuy.jpg" alt="">              
                     </div>
                     <div class="map_left_nav">
                         <div class="third_title">
                             <h3>Search
                             <br>by Routes</h3>
                         </div>
-                        <div class="routes_color_list">
+                        <!-- <div class="routes_color_list">
                             <div class="routes_color"><img src="./img/caminoall.png" alt=""></div>
                             <div class="routes_color"><img src="./img/caminodelnorte.png" alt=""></div>
                             <div class="routes_color"><img src="./img/caminofrances.png" alt=""></div>
@@ -95,17 +120,17 @@
                             <div class="routes_color"><img src="./img/caminoportuges.png" alt=""></div>
                             <div class="routes_color"><img src="./img/caminolepuy.png" alt=""></div>
                             
-                        </div>
+                        </div> -->
                         
                         <div class="routes_buttons">
-                            <a class="routes_button" id="map_all" href="#">All Camino</a>
-                            <a class="routes_button" id="map_norte" href="#">Camino del Norte</a>
-                            <a class="routes_button" id="map_frances" href="#">Camino Frances</a>
-                            <a class="routes_button" id="map_finisterre" href="#">Camino Finisterre</a>
-                            <a class="routes_button" id="map_ingles" href="#">Camino Ingles</a>
-                            <a class="routes_button" id="map_viadalaplata" href="#">Via da la Plata</a>
-                            <a class="routes_button" id="map_portugues" href="#">Camino Portugues</a>
-                            <a class="routes_button" id="map_lepuy" href="#">Camino Le Puy</a>     
+                            <a class="routes_button" id="map_all" href="#"><i class="fa-solid fa-circle"></i><span class="mapa color_ch">All Camino</span></a>
+                            <a class="routes_button" id="map_norte" href="#"><i class="fa-solid fa-circle c01"></i><span class="mapa">Camino del Norte</span></a>
+                            <a class="routes_button" id="map_frances" href="#"><i class="fa-solid fa-circle c02"></i><span class="mapa">Camino Frances</span></a>
+                            <a class="routes_button" id="map_finisterre" href="#"><i class="fa-solid fa-circle c03"></i><span class="mapa">Camino Finisterre</span></a>
+                            <a class="routes_button" id="map_ingles" href="#"><i class="fa-solid fa-circle c04"></i><span class="mapa">Camino Ingles</span></a>
+                            <a class="routes_button" id="map_viadalaplata" href="#"><i class="fa-solid fa-circle c05"></i><span class="mapa">Via da la Plata</span></a>
+                            <a class="routes_button" id="map_portugues" href="#"><i class="fa-solid fa-circle c06"></i><span class="mapa">Camino Portugues</span></a>
+                            <a class="routes_button" id="map_lepuy" href="#"><i class="fa-solid fa-circle c07"></i><span class="mapa">Camino Le Puy</span></a>     
                         </div>
                     </div>
                 </div>
@@ -126,11 +151,11 @@
                         <div class="routes_info">
                             <h5>Camino del Norte</h5>
                             <p>北方之路是沿著西班牙北部海岸的一條路線，
-                            <br>從Basque出發,穿越Cantabria、Asturias、
-                            <br>Galicia,到Santiago de Compostela。
-                            <br>雖然上坡路較多，但擁有大自然美景的山與海
-                            <br>、美食，就是這條路最吸引人的特色，孤獨與
-                            <br>寧靜的絕美。</p>
+                            從Basque出發,穿越Cantabria、Asturias、
+                            Galicia,到Santiago de Compostela。
+                            雖然上坡路較多，但擁有大自然美景的山與海
+                            、美食，就是這條路最吸引人的特色，孤獨與
+                            寧靜的絕美。</p>
                         </div>
                     </div>
                     <div class="routes_cards">
@@ -138,11 +163,11 @@
                         <div class="routes_info">
                             <h5>Camino Frances</h5>
                             <p>法國之路是所有路線最受歡迎最著名的,擁有
-                            <br>驚嘆的城市和自然美景,穿越Pamplona、
-                            <br>Logroño及Leon、O Cebreiro、Sarria。
-                            <br>大多數朝聖者是從Sarria開始,主要因為領取
-                            <br>朝聖護照最少走最後一百公里。此路線沿途的
-                            <br>指標、箭頭、餐廳酒吧和住宿點也是最多的。</p>
+                            驚嘆的城市和自然美景,會穿越Pamplona、
+                            Logroño及Leon、O Cebreiro、Sarria等。
+                            大多數朝聖者是從Sarria開始,主要因為領取
+                            朝聖護照最少走最後一百公里。此路線沿途的
+                            指標、箭頭、餐廳酒吧和住宿點也是最多的。</p>
                         </div>
                     </div>
                 </div>
@@ -154,13 +179,8 @@
                         <img src="./img/camino_finisterre.jpg" alt="">
                         <div class="routes_info2">
                             <h5>Camino Finisterre</h5>
-                            <p>世界盡頭之路,Santiago de
-                                <br>Compostela不是旅程的終點,
-                                <br>而是新旅程的開始。途中會
-                                <br>遇到兩條不同方向的叉路,
-                                <br>一條直接通往 Finisterre
-                                <br>,另一條則先通往另一座海
-                                <br>邊小鎮 Muxía。</p>
+                            <p>世界盡頭之路，聖地牙哥教堂不是旅程的終點,而是新旅程的開始。途中會
+                            遇到兩條不同方向的叉路，一條直通Finisterre，另一條則先通往另一座海邊小鎮 Muxía。</p>
                         </div>
                     </div>
                     <div class="routes_cards2">
@@ -168,13 +188,12 @@
                         <div class="routes_info2">
                             <h5>Camino Ingles</h5>
                             <p>兩個起點:Ferrol和A Coruna
-                            <br>是北歐、英國和愛爾蘭的朝
-                            <br>者的傳統路線,也是一條重要
-                            <br>的貿易路線。A Coruna是一
-                            <br>個比Ferrol更大的小鎮,只有
-                            <br>少數朝聖者從那裡出發,因為
-                            <br>它距離聖地亞哥德孔波斯特
-                            <br>拉不到100 公里。</p>
+                            是北歐、英國和愛爾蘭的朝者的傳統路線,也是一條重要
+                            的貿易路線。A Coruna是一
+                            個比Ferrol更大的小鎮,只有
+                            少數朝聖者從那裡出發,因為
+                            它距離聖地亞哥德孔波斯特
+                            拉不到100 公里。</p>
                         </div>
                     </div>
                     <div class="routes_cards2">
@@ -182,12 +201,9 @@
                         <div class="routes_info2">
                             <h5>Via da la Plata</h5>
                             <p>是所有路線最長的,從南到北
-                            <br>遊覽半島,經西班牙一些最
-                            <br>美麗的地方。Seville,Zafra, 
-                            <br>Merida,Caceres,Salamanca,
-                            <br>Zamora,Astorga等城市都是
-                            <br>您在這條美妙道路上發現的
-                            <br>一些地方。</p>
+                            遊覽半島，經西班牙一些最
+                            美麗的地方。Seville,Zafra, 
+                            Merida，Caceres，Zamora，Astorga等城市都是在這條美妙道路上發現的一些地方。</p>
                         </div>
                     </div>
                 </div>
@@ -202,12 +218,11 @@
                         <div class="routes_info3">
                             <h5>Camino Portugues</h5>
                             <p>葡萄牙之路是第二受歡迎的路線，擁有大西
-                            <br>洋美景和沙灘，能品嚐美味海鮮和葡萄酒。
-                            <br>雖然葡萄牙之路的起點都在葡萄牙首都
-                            <br>Lisboa,大多朝聖者從第二大城市Porto
-                            <br>或Tui開始他們的旅程,因為從Lisboa
-                            <br>到Porto的路幾乎都是難走的石頭路,線設
-                            <br>施較少,路標也不是很好。</p>
+                            洋美景和沙灘，能品嚐美味海鮮和葡萄酒。
+                            雖然葡萄牙之路的起點都在葡萄牙首都
+                            Lisboa,大多朝聖者從第二大城市Porto
+                            或Tui開始他們的旅程,因為從Lisboa
+                            到Porto的路幾乎都是難走的石頭路，線設施較少，路標也不是很好。</p>
                         </div>
                     </div>
                     <div class="routes_cards3">
@@ -215,12 +230,12 @@
                         <div class="routes_info3">
                             <h5>Camino Le Puy</h5>
                             <p>Le Puy Route是法國最受歡迎的朝聖路線。
-                            <br>它從 Le Puy-en-Velay 鎮的里昂附近開始
-                            <br>，直到 Saint-Jean-Pied-de-Port。
-                            <br>這是一條相當多山的路線，經常起伏不定。
-                            <br>大自然風景優美，一年中走這條路線的最佳
-                            <br>時間是夏天，但那時是最繁忙的時候，有時
-                            <br>可能很難找到住宿。</p>
+                            它從 Le Puy-en-Velay 鎮的里昂附近開始
+                            ，一直到 Saint-Jean-Pied-de-Port。
+                            是一條相當多山的路線，經常起伏不定。
+                            大自然風景優美，一年中走這條路線的最佳
+                            時間是夏天，但那時是最繁忙的時候，有時
+                            可能很難找到住宿。</p>
                         </div>
                     </div>
                 </div>
@@ -241,6 +256,7 @@
     <button type="button" id="BackTop" class="totop-arrow"></button>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="./js/totop-arrow.js"></script>
+    <script src="./js/module.js"></script>
     <script src="./js/click_button_map.js"></script>
 
      <!-- footer start -->
@@ -263,8 +279,9 @@
             <li><a href="https://www.facebook.com/" target="_black"><img src="./img/facebook_yellow.png" alt=""></a></li>
             <li><a href="https://twitter.com/explore" target="_black"><img src="./img/twitter_yellow.png" alt=""></a></li>
         </ul>
-        <p>©2022 By Buen Camino Heal way All Rights Reserved.</p>
-        <p>本網站為緯育TibaMe前端工程師專業技術養成班第76期學員專題作品,本平台僅供學習、展示之用。若有侵權疑慮,您可以私訊 [緯育TibaMe] ,後續會由專人協助處理。</p>
+        <p class="footer-p1">©2022 By Buen Camino Heal way All Rights Reserved.</p>
+        <p class="footer-p2">本網站為緯育TibaMe前端工程師專業技術養成班第76期學員專題作品,本平台僅供學習、展示之用。若有侵權疑慮,您可以私訊 [緯育TibaMe] ,後續會由專人協助處理。</p>
+        <p class="footer-p3">本網站為緯育TibaMe前端工程師專業技術養成班第76期學員專題作品,本平台僅供學習、展示之用。</p>
     </footer>
     <!-- footer end -->
     

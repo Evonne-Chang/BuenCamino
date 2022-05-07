@@ -4,7 +4,6 @@
 body{
     color: black;
     font-family: 'Times New Roman','Arail','Noto Sans TC', sans-serif;
-    /* 'PMingLiU' */
 }
 
 a{
@@ -32,10 +31,47 @@ header{
     margin: 0 auto;
 }
 
+@media screen and (max-width: 575.98px) {
+    .wrapper{
+        width: auto;
+    }
+
+    .right-nav{
+        display: none;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px){
+    .wrapper{
+        width: auto;
+    }
+
+    .right-nav{
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+    .wrapper{
+        width: auto;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .wrapper{
+        width: auto;
+    }
+
+}
+
 /* header main nav */
 
-.main-nav li:nth-child(7) a{
+.main-nav li:nth-child(8) a{
     color: #FFDC59;
+}
+
+.nav-logo-ph{
+    display: none;
 }
 
 /* heade title */
@@ -65,6 +101,80 @@ header h1{
 }
 /* header 最外層  end*/
 
+/* -----Header RWD----- */
+@media screen and (max-width: 575.98px) {
+
+    header{
+        height: 450px;
+    }
+
+    header p{
+        margin-left: 50px;
+        font-size: 70px;
+    }
+
+    header h1{
+        font-size: 36px;
+        letter-spacing: 3px;
+    }
+
+    .faq_pic01 img{
+        width: 50px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px){
+
+    header{
+        height: 450px;
+    }
+
+    header p{
+        margin-left: 50px;
+        font-size: 70px;
+    }
+
+    header h1{
+        font-size: 40px;
+        letter-spacing: 3px;
+        padding: 0px 30px;
+    }
+
+    .faq_pic01 img{
+        width: 50px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+
+    header p{
+        margin-left: 70px;
+        font-size: 70px;
+    }
+
+    header h1{
+        font-size: 40px;
+        letter-spacing: 3px;
+        padding: 0px 30px;
+    }
+
+    .faq_pic01 img{
+        width: 50px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+
+    header p{
+        font-size: 70px;
+    }
+
+    header h1{
+        letter-spacing: 3px;
+        padding: 0px 30px;
+    }
+
+}
 
 /* container 最外層 */
 .container{
@@ -76,6 +186,30 @@ header h1{
 .section_wrapper{
     width: 1200px;
     margin: 0 auto;
+}
+
+@media screen and (max-width: 575.98px) {
+    .section_wrapper{
+        width: auto;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px){
+    .section_wrapper{
+        width: auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+    .section_wrapper{
+        width: auto;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .section_wrapper{
+        width: auto;
+    }
 }
 
 
@@ -100,12 +234,21 @@ header h1{
     color: #FFDC59 ;
 }
 
-.breadcrumb_list + li::before{
+.breadcrumb li{
+    margin: 0px 15px;
+}
+
+/* .breadcrumb_list + li::before{
     content: '>';
     display: inline-block;
     padding: 10px;
     color: #213375;
-  }
+  } */
+
+.breadcrumb .fa-solid{
+    margin-top: 8px;
+    color: #213375;
+} 
 
 .breadcrumb_list:hover{
     background-color: #213375;
@@ -245,6 +388,54 @@ header h1{
    padding: 20px 0;
 }
 /* ------ e-mail end --------- */
+
+/* ------section RWD---- */
+@media screen and (max-width: 575.98px) {
+    .section_wrapper h2{
+        font-size: 24px;
+    }
+
+    .email_area{
+        width: auto;
+    }
+
+    .email_area h3{
+        font-size: 18px;
+    }
+
+    .email_area h4{
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px){
+    .section_wrapper h2{
+        font-size: 24px;
+    }
+
+    .email_area{
+        width: auto;
+    }
+
+    .email_area h3{
+        font-size: 18px;
+    }
+
+    .email_area h4{
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+    .section_wrapper h2{
+        font-size: 24px;
+    }
+
+    .email_area{
+        width: auto;
+    }
+
+}
 
 
 
