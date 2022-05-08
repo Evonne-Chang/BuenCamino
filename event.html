@@ -85,14 +85,16 @@
             <section>
                       
                 <div class="events_title">
-                    <h2>EVENTS</h2>
+                    <blockquote>
+                        <span><h2>EVENTS</h2></span>
+                    </blockquote>
                 </div>
                 <div class="events_list">
                     <div>
-                        <div class="events_img"> 
+                        <div class="events_img" id="event01"> 
                             <img src="./img/event_bn01.jpg" alt="event_bn">
                         </div>
-                        <div class="events_text01">
+                        <div class="events_text01" id="etext01">
                             <div class="events_bigtitle">
                                 <h3>2022-May</h3>
                             </div>
@@ -100,10 +102,10 @@
                         </div>
                     </div> 
                     <div>
-                        <div class="events_img">
+                        <div class="events_img" id="event02">
                             <img src="./img/event_bn02.jpg" alt="event_bn"> 
                         </div>
-                        <div class="events_text02">
+                        <div class="events_text02" id="etext02">
                             <div class="events_bigtitle">
                                 <h3>2022-Dec</h3>
                             </div>
@@ -117,30 +119,33 @@
                 </div>
                 <!-- section event-buttom -->
                 <div class="buttom_gp">
-                    <div class="buttom">
+                    <div class="buttom" id="button01">
                         <div calss="viewmore_buttom">
                             <a href="#">View More</a>
                         </div>
                     </div>
-                    <div class="buttom">
+                    <div class="buttom" id="button02">
                         <div calss="viewmore_buttom">
                             <a href="#">View More</a>
                         </div>
                     </div>
                 </div>
 
+                
                 <!-- section news -->
                 <div class="news_title">
-                    <h2>NEWS</h2>
+                    <blockquote2>
+                        <span><h2>NEWS</h2></span>
+                    </blockquote2>  
                 </div>
 
                 <div class="news_list">
                     <div>
-                        <div class="news_img"> 
+                        <div class="news_img" id="news01"> 
                             <img src="./img/news_bn01.jpg" alt="event_bn">
                         </div>
                         <div class="events_text_list">
-                            <div class="news_text01">
+                            <div class="news_text01" id="ntext01">
                                 <div class="news_bigtitle">
                                     <h3>2022-Aug</h3>
                                 </div>
@@ -149,11 +154,11 @@
                         </div>   
                     </div> 
                     <div>
-                        <div class="news_img">
+                        <div class="news_img" id="news02">
                             <img src="./img/news_bn02.jpg" alt="event_bn">
                         </div>
                         <div class="events_text_list">
-                            <div class="news_text02">
+                            <div class="news_text02" id="ntext02">
                                 <div class="news_bigtitle">
                                     <h3>2022-Sep</h3>
                                 </div>
@@ -168,12 +173,12 @@
                 </div>
                 <!-- section event-buttom -->
                 <div class="buttom_gp">
-                    <div class="buttom">
+                    <div class="buttom" id="button03">
                         <div calss="viewmore_buttom">
                             <a href="#">View More</a>
                         </div>
                     </div>
-                    <div class="buttom">
+                    <div class="buttom" id="button04">
                         <div calss="viewmore_buttom">
                             <a href="#">View More</a>
                             </div>
@@ -207,6 +212,13 @@
                     <li><img src="./img/ig_photo03.jpg" alt=""></li>
                     <li><img src="./img/ig_photo04.jpg" alt=""></li>
                     <li><img src="./img/ig_photo05.jpg" alt=""></li>
+                    <li><img src="./img/ig_photo_s.png" alt=""></li>
+                    <li><img src="./img/ig_photo02.jpg" alt=""></li>
+                    <li><img src="./img/ig_photo03.jpg" alt=""></li>
+                    <li><img src="./img/ig_photo04.jpg" alt=""></li>
+                    <li><img src="./img/ig_photo05.jpg" alt=""></li>
+                    <li><img src="./img/ig_photo_s.png" alt=""></li>
+                    <li><img src="./img/ig_photo02.jpg" alt=""></li>
                 </ul>
             </div>
         </div>        
@@ -220,7 +232,12 @@
     <!-- Totopbuttom -->
     <button type="button" id="BackTop" class="totop-arrow"></button>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
     <script src="./js/module.js"></script>
+    <script src="./js/animateScroll.js"></script>
     <script src="./js/totop-arrow.js"></script>
 
      <!-- footer start -->

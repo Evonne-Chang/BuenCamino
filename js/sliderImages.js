@@ -34,10 +34,10 @@ function debounce(func, wait = 20, immediate = true) {
       // const slideInAt = (window.scrollY + window.innerHeight) - slideImage.scrollHeight / 2;
       //console.log(slideInAt);
       /*取得圖片底部離視窗頂部的距離*/
-      const imageBottom = (slideImage.offsetTop + headerHeight.offsetHeight * 0.2 ) + slideImage.offsetHeight;
+      const imageBottom = (slideImage.offsetTop + headerHeight.offsetHeight * 0.1 ) + slideImage.offsetHeight;
       // console.log(slideImage.offsetTop);
       //console.log(imageBottom);
-      const isHalfShown = slideInAt > (slideImage.offsetTop + headerHeight.offsetHeight * 0.2 );
+      const isHalfShown = slideInAt > (slideImage.offsetTop + headerHeight.offsetHeight * 0.1 );
       const isNotScrolledPast = window.scrollY < imageBottom;
       //console.log(isHalfShown);
       //console.log(isNotScrolledPast);

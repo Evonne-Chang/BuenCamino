@@ -253,6 +253,109 @@ h3{
     text-align: center;
     line-height: 67px;
 }
+
+/* button */
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.scroll_button{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+  }
+  
+
+.scroll_button span{
+    color: #213375;
+    font-size: 20px;
+    position: relative;
+}
+
+.scroll_button{
+ 
+    cursor: pointer;
+    margin:0px 20px;
+    background-color: #C0E3EE;
+    vertical-align: middle;
+    display: flex;
+    margin-bottom: 20px;
+    width: 120px;
+    height: 45px;
+    line-height: 45px;
+    transition: 0.3s;
+    /* position: relative; */
+}
+.scroll_button::before{
+    content: ''; 
+    position: absolute; 
+    transition:.3s; 
+}
+
+.scroll_button::after{
+    content: ''; 
+    position: absolute; 
+    transition:.3s; 
+}
+
+
+
+.scroll_button text{
+    line-height: 45px;
+    transition: 0.35s;
+}
+
+
+.arrow{
+    width: 20px;
+    height: 3px;
+    background: transparent;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateX(-50%);
+}
+
+/* .arrow::before{
+    content: ''; 
+    position: absolute; 
+    transition:.3s;
+    top: -193%; 
+    left: 0px;
+    width: 10px;
+    height: 10px;
+    border-top: solid 3px #213375;
+    border-right: solid 3px #213375;
+    transform: rotate(45deg);
+} */
+
+.text{
+    position: absolute;
+    top: 0px;
+    left: 25px;
+    transition: 0.5s;
+    color: #FFDC59;
+}
+
+
+
+.text:hover{
+    color: #FFDC59;
+}
+
+.scroll_button:hover{
+    background-color: #213375;
+}
+
 /* about list top */
 .about_top{
     position: relative;

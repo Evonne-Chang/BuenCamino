@@ -18,14 +18,47 @@ P{
 }
 
 header{
-    background-image: 
+    /* background-image: 
     linear-gradient(to bottom, rgba(156, 156, 156, 0.6) 0%, 
-    rgba(255, 255, 255, 0) 30%),url(../img/photo_mian_bn.jpg);
+    rgba(255, 255, 255, 0) 30%),url(../img/photo_mian_bn.jpg); */
     background-repeat: no-repeat;
     background-position:center center;
     background-size:cover;
     height: 750px;
+    position: relative;
 }
+
+
+
+.slider{
+    width: 100%;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    cursor: pointer;
+}
+
+.dots{
+    bottom: 0;
+}
+
+
+.dot{
+    background-color: white;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 8px;
+}
+
+.dotonclick{
+    background-color: #213375;
+}
+
+
+/* BCImageSlider */
+
 
 
 /* header 最外層 */
@@ -44,6 +77,7 @@ header{
 .nav-logo-ph{
     display: none;
 }
+
 
 /* header title  */
 .main_title h1{
@@ -415,6 +449,7 @@ h4{
     
     .photo_flex_grow{
         width: auto;
+        display: none;
     }
     
     .ig_icon{
@@ -464,6 +499,7 @@ h4{
     
     .photo_flex_grow{
         width: auto;
+        display: none;
     }
     
     .ig_icon{
