@@ -1106,6 +1106,7 @@ h4{
 
     .routes_info{
         padding-top: 18px;
+        opacity: 1;
     }
 
     .routes_info h5{
@@ -1125,6 +1126,7 @@ h4{
 
     .routes_info2{
         padding-top: 15px;
+        opacity: 1;
     }
 
     .routes_info2 p{
@@ -1134,6 +1136,7 @@ h4{
 
     .routes_info3{
         padding-top: 18px;
+        opacity: 1;
     }
 
     .routes_info3 h5{

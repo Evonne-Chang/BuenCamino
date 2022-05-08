@@ -21,11 +21,11 @@ function mapft(){
     document.getElementsByClassName("maps_show")[0].classList.remove("maps_show");
     maps_bn.classList.add("maps_show");
 
-    document.getElementsByClassName("color_ch")[0].classList.remove("color_ch");
+    
     // let map_a = maps_bn.children;
     // console.log(map_a);
     // map_a.classList.add("color_ch");
-
+    document.getElementsByClassName("color_ch")[0].classList.remove("color_ch");
     let maps_span = this.querySelector("span");
     //console.log(maps_span);
     maps_span.classList.add("color_ch");
