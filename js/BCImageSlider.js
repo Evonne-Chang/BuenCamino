@@ -2,14 +2,14 @@ var images = ["photo_mian_bn01.jpg" , "photo_main_bn02.jpg", "photo_main_bn03.jp
 
 $(function () {
     var i = 0;
-    $("header").css("background-image", "url(../img/" + images[i] + ")");
+    $("header").css("background-image", "url(./img/" + images[i] + ")");
     setInterval(function () {
         i++;
         if (i == images.length) {
             i = 0;
         }
         $("header").fadeOut("slow", function () {
-            $(this).css("background-image", "url(../img/" + images[i] + ")");
+            $(this).css("background-image", "url(./img/" + images[i] + ")");
             $(this).fadeIn("slow");
         });
     }, 5000);
@@ -20,15 +20,15 @@ $('.dot').on('click', function(){
 });
 
 $('.dot1').on('click', function(){
-    $("header").css("background-image", "url(../img/" + images[0] + ")");
+    $("header").css("background-image", "url(./img/" + images[0] + ")");
 })
 
 $('.dot2').on('click', function(){
-    $("header").css("background-image", "url(../img/" + images[1] + ")");
+    $("header").css("background-image", "url(./img/" + images[1] + ")");
 })
 
 $('.dot3').on('click', function(){
-    $("header").css("background-image", "url(../img/" + images[2] + ")");
+    $("header").css("background-image", "url(./img/" + images[2] + ")");
 })
 
 // function showButton(){

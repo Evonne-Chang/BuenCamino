@@ -272,7 +272,7 @@ h3{
     text-align: center;
     position: relative;
     transition: all .35s;
-  }
+}
   
 
 .scroll_button span{
@@ -315,15 +315,7 @@ h3{
 }
 
 
-.arrow{
-    width: 20px;
-    height: 3px;
-    background: transparent;
-    position: absolute;
-    left: 20px;
-    top: 50%;
-    transform: translateX(-50%);
-}
+
 
 /* .arrow::before{
     content: ''; 
@@ -732,6 +724,10 @@ h3{
         text-align: unset;
         padding-top: 35px;
     }
+
+    .buttons{
+        display: none;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px){
@@ -900,6 +896,9 @@ h3{
         color: black;
         text-align: unset;
         padding-top: 35px;
+    }
+    .buttons{
+        display: none;
     }
 }
 
