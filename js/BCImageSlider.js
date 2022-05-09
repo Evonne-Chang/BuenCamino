@@ -12,7 +12,17 @@ $(function () {
             $(this).css("background-image", "url(./img/" + images[i] + ")");
             $(this).fadeIn("slow");
         });
+
+        if (i == 0){
+            
+            $('.dot1').addClass("dotonclick").siblings().removeClass("dotonclick");
+        }else if (i == 1){
+        $('.dot2').addClass("dotonclick").siblings().removeClass("dotonclick");
+        }else{
+        $('.dot3').addClass("dotonclick").siblings().removeClass("dotonclick");
+        }
     }, 5000);
+    
 });
 
 $('.dot').on('click', function(){
