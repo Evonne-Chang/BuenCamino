@@ -454,7 +454,7 @@ header{
     }
 
     .story_intro_text p{
-        margin: 40px 0;
+        margin: 40px 20px;
         font-size: 16px;
     }
 
@@ -513,6 +513,7 @@ header{
         width: 100%;
         margin: auto;
         align-content: center;
+        display: none;
     }
 
     .story_intro_end img{
@@ -531,6 +532,8 @@ header{
         line-height: 1.4;
         letter-spacing: 4px;
         margin-top: 50px;
+        padding: 0px 20px;
+        margin-bottom: 30px;
     }
 }
 
@@ -571,10 +574,14 @@ header{
     .story_item_area{
         width: 100%;
     }
+    .story_intro_text{
+        padding: 0 15px ;
+    }
 
     .story_intro_text p{
-        margin: 40px 0;
+        margin: 40px 20px;
         font-size: 13px;
+  
     }
 
     .story_item_text01{
@@ -632,6 +639,7 @@ header{
         width: 100%;
         margin: auto;
         align-content: center;
+        display: none;
     }
 
     .story_intro_end img{
@@ -650,6 +658,7 @@ header{
         letter-spacing: 4px;
         margin-top: 50px;
         padding: 0px 30px;
+        margin-bottom: 30px;
     }
 }
 
