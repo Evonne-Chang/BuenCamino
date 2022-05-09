@@ -725,6 +725,7 @@ ex-pic05
 
     .introlist .index-pic02{
         left: -49px;
+        display: none;
     }
 
     .header-title2{
