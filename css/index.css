@@ -494,19 +494,19 @@ video::-webkit-media-controls {
 
 .align-left.slide-in {
     transform: translateX(-20%) scale(0.95);
-    overflow: hidden;
+    /* overflow: hidden; */
     
 }
     
 .align-right.slide-in {
     transform: translateX(20%) scale(0.95);
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .slide-in.active {
     opacity: 1;
     transform: translateX(0%) scale(1);
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 /* container 最外層 end*/
@@ -707,7 +707,7 @@ video::-webkit-media-controls {
     .introlist .index-pic01{
         top: 95px;
     }
-
+ex-pic05
     .introlist .index-pic03{
         top: -100px;
         left: 388px;
